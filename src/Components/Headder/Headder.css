@@ -1,0 +1,148 @@
+
+.w3-upper-write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fef0e6;
+}
+
+.leftimg{
+    width: 16rem;
+    height: 16rem;
+    left: 1.79rem;
+}
+.rightimg{
+    width: 15rem;
+    height: 13rem;
+    right: 1.79rem;
+}
+.centre-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(104, 28, 28);
+
+}
+.container-fluid{
+    background-color: #fef0e6;
+}
+.nav-link{
+    color: #fef0e6;
+    padding: 2.2rem;
+    margin: 2.2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.nav-link:hover{
+    color: rgb(104, 28, 28);
+    background-color: #fef0e6;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+#navbarNavAltMarkup{
+    justify-content: center;
+}
+.navbar-toggler{
+    background-color: #c35839;
+}
+.navbar-nav
+{
+    align-items: center;
+    justify-content: center;
+    background-color: #ac492e;
+    border-radius: 2rem;
+}
+.headding{
+    font-size: 4.5rem;
+    padding: 1.5rem;
+    margin: 2.5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(104, 28, 28);
+}
+.date{
+    font-size: 2rem;
+    height: 1.6rem;
+    padding: 1.6rem;
+    margin: 2.4rem;
+    font-style: normal;
+    color: rgb(1, 62, 67);
+}
+.image{
+    background-image: url(../Assets/logo.webp);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out alternate-reverse; 
+
+ }
+@keyframes change{
+    0%
+    {
+        background-image: url(../Assets/logo.webp);
+    }
+    50%
+    {
+        background-image: url(../Assets/bg-img2.jpg);
+    }
+    100%
+    {
+        background-image: url(../Assets/logo.webp);
+    }
+}
+@media only screen and (max-width: 400px){
+    .w3-upper-write{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        
+    }
+    .leftimg{
+        width: 4rem;
+        height: 4rem;
+        left: 1.79rem;
+    }
+    .rightimg{
+        width: 4rem;
+        height: 3.7rem;
+        right: 1.79rem;
+    }
+    .centre-text h1{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+        padding: .5rem;
+        margin: .5rem;
+    }
+}

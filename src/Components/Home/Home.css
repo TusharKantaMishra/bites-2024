@@ -1,0 +1,102 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.headabout-conf{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(104, 28, 28);
+    margin-bottom: 1rem;
+    margin: 2rem;
+}
+.bodyabout-conf{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(8, 0, 0);
+    margin-bottom: 1rem;
+    margin: 2rem;
+    width: 90%;
+    text-align: justify;
+}
+
+.horizontal-timeline .items {
+    border-top: 0.25rem solid #043361;
+    padding-top: 2rem;
+  }
+
+  .horizontal-timeline .items .items-list {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 7rem;
+    margin-right: 0;
+    width: 23%;
+  }
+
+  .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 3.2rem;
+    border-right: .19rem dashed #04396e;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 3.4rem;
+    left: 0;
+    right: 0;
+    width: 7.4rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: .5rem;
+  }
+
+  @media (min-width: 1140rem) {
+    .horizontal-timeline .items .items-list {
+      display: inline-block;
+      width: 23%;
+      padding-top: 4.5rem;
+    }
+
+    .horizontal-timeline .items .items-list .event-date {
+      top: -4.0rem;
+  }
+}
+@media only screen and (max-width: 400px){
+  .headding{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .up-text{
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .date{
+    font-size: 1.5rem;
+    height: 1.6rem;
+    margin: 0;
+    padding-bottom: 2rem;
+    
+  }
+  .headabout-conf{
+    font-size: 2rem;
+    
+  }
+  .bodyabout-conf{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .container-fluid{
+    display: none;
+  }
+}

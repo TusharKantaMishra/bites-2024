@@ -1,0 +1,42 @@
+.heading-com{
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ac492e;
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.co-heading{
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #ac492e;
+    color: #fef0e6e3;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10rem;
+}
+.card{
+    margin: 1rem;
+}
+.card-committees{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.75;
+}
+@media only screen and (max-width: 400px){
+    .heading-com{
+        font-size: 2.3rem;
+    }
+    .co-heading{
+        font-size: 1.8rem;
+    }
+    .card-body p{
+        font-size: .8rem;
+    }
+}

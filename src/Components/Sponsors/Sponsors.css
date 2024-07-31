@@ -1,0 +1,69 @@
+.heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin: 50px;
+    color: #681c1c;
+}
+.body{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-weight: 550;
+    margin: 20px;
+    padding: auto;
+}
+.sponsor-heading{
+    font-size: 2.9rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10rem;
+    margin: 2rem;
+}
+.sponsor-heading-platinum{
+    background-color: #c8d3e2;
+    color: #35383b;
+    border-radius: 10rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.sponsor-heading-gold{   
+    background-color: gold;
+    color: rgb(97, 83, 0);
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 10rem;
+  
+}
+.sponsor-heading-silver{
+    background-color: silver;
+    color: rgb(71, 71, 71);
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 10rem;
+}
+.sponsor-heading-young{
+    background-color: rgb(0, 25, 99);
+    color: rgb(213, 222, 255);
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 10rem;
+}
+.table{
+    width: 89%;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(186, 108, 108);
+    opacity: 0.8;
+   }
+   .t-head-sponsor{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #681c1c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+   }
