@@ -32,6 +32,7 @@
 }
 .container-fluid{
     background-color: #fef0e6;
+    width: 100%;
 }
 .nav-link{
     color: #fef0e6;
