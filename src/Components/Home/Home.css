@@ -8,14 +8,14 @@
     
 }
 .headabout-conf{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.7rem;
+    font-weight: 600;
     color: rgb(104, 28, 28);
     margin-bottom: 1rem;
     margin: 2rem;
 }
 .bodyabout-conf{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: rgb(8, 0, 0);
     margin-bottom: 1rem;
@@ -26,7 +26,7 @@
 
 .horizontal-timeline .items {
     border-top: 0.25rem solid #043361;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .horizontal-timeline .items .items-list {

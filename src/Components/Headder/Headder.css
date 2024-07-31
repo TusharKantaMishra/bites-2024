@@ -33,7 +33,7 @@
 .nav-link{
     color: #fef0e6;
     padding: 1.6rem;
-    margin: 0 1rem;
+    margin: 0 0.7rem;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
@@ -63,6 +63,8 @@
     background-color: #ac492e;
     border-radius: 2rem;
     width: 100%;
+    margin: 1rem;
+    text-align: center;
 }
 .headding{
     font-size: 4.2rem;
