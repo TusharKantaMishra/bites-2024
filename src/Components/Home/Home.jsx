@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
             </div>
             
-            <div className="container-fluid py-5">
+            {/* <div className="container-fluid py-5">
                 <h1 className='heading'>Timeline</h1>
 
                 <div className="row">
@@ -77,7 +77,7 @@ const Home = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
         </div>
     );
 }
