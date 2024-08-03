@@ -8,7 +8,7 @@ const Registration = () => {
             <h1 className="heading-reg">Online Registration and Payment</h1>
             <h1 className="feetable">Fee Table</h1>
             <div className="table-container">
-                <table class="table table-striped table-hover table-bordered table-light">
+                <table className="table table-striped table-hover table-bordered table-light">
                     <thead >
                         <tr className='t-head'>
                             <th scope="col"></th>

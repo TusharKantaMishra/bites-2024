@@ -18,7 +18,7 @@ const About = () => {
         <div className="aboutnitr">
 
           <div className='icon-class'>
-            <i class="fa-solid fa-dna fa-beat-fade fa-xl"></i>
+            <i className="fa-solid fa-dna fa-beat-fade fa-xl"></i>
           </div>
         </div>
         <h1>About the Department - BM</h1>
@@ -27,7 +27,7 @@ const About = () => {
         <div className="aboutnitr">
 
           <div className='icon-class'>
-            <i class="fa-solid fa-gears fa-beat-fade fa-xl"></i>
+            <i className="fa-solid fa-gears fa-beat-fade fa-xl"></i>
           </div>
         </div>
         <h1>About the Department - ME</h1>
