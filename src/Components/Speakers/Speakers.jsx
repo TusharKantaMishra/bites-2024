@@ -38,7 +38,7 @@ const Speakers = () => {
             <div className="container-speaker">
                 <div className="row-2">
 
-                    <div className="card col-lg-4 ">
+                    <div className="card col-lg-7">
                         <div className="card-body">
                             <h1 className="card-title text-danger mb-4">Keynote Address</h1>
 
