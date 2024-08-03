@@ -12,7 +12,7 @@ import Registration from './Components/Registration/Registration';
 import Contact from './Components/Contact/Contact';
 import Sponsors from './Components/Sponsors/Sponsors';
 import Awards from './Components/Awards/Awards';
-// import Publications from './Components/Publications/Publications';
+import Publications from './Components/Publications/Publications';
 
 const App = () => {
     return (
@@ -24,7 +24,7 @@ const App = () => {
                 <Route path="/speakers" element={<Speakers/>} />
                 <Route path="/committees" element={<Committees/>} />
                 <Route path="/submission" element={<Submissions/>} />
-                {/* <Route path="/publications" element={<Publications/>} /> */}
+                <Route path="/publications" element={<Publications/>} />
                 <Route path="/registration" element={<Registration/>} />
                 <Route path="/awards" element={<Awards/>} />
                 <Route path="/sponsors" element={<Sponsors/>} />

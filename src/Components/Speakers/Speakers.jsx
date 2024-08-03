@@ -37,8 +37,7 @@ const Speakers = () => {
             </div> */}
             <div className="container-speaker">
                 <div className="row-2">
-
-                    <div className="card col-lg-7">
+                    <div className="card col-lg-5">
                         <div className="card-body">
                             <h1 className="card-title text-danger mb-4">Keynote Address</h1>
 
@@ -46,11 +45,11 @@ const Speakers = () => {
                             <p className="card-text">
                                 Associate Professor, NIT Uttarakhand
                             </p>
-                            {/* <h5 className="card-title">Proff</h5> */}
-                            <p className="card-text">
+                            <h5 className="card-title">To be updated ...</h5>
+                            {/*<p className="card-text">
                                 To be updated ...
                             </p>
-                            {/* <h5 className="card-title">Proff</h5>
+                             <h5 className="card-title">Proff</h5>
                             <p className="card-text">
                                 Some quick example text to build on
                                 the card title and make up the bulk
@@ -91,15 +90,15 @@ const Speakers = () => {
 
                     </div>
 
-                    <div className="card col-lg-4 mb-4">
+                    <div className="card col-lg-5">
                         <div className="card-body">
                             <h1 className="card-title text-danger mb-4" >Invited Address</h1>
 
-                            {/* <h5 className="card-title">Card title</h5> */}
-                            <p className="card-text">
-                                To be updated ...
+                            <h5 className="card-title">To be updated ...</h5>
+                            {/*<p className="card-text">
+                                
                             </p>
-                            {/* <h5 className="card-title">Card title</h5>
+                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
                                 Some quick example text to build on the
                                 card title and make up the bulk of the
