@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'
+import brochure from '../Assets/brochure.pdf'
 
 const Home = () => {
     return (
@@ -15,7 +16,9 @@ const Home = () => {
                     <h2 className='date'>18th -20th December 2024</h2>
                     <h2> Organized by</h2>
                     <h2>National Institute of Technology Rourkela</h2>
-                    <Link className="btn btn-danger btn-lg p-3 mt-5" to="https://drive.google.com/file/d/1p9NmgZXd0k1ShJWk2LCZQE0iLOwuQpUi/view?usp=sharing" role="button">View Brochure</Link>
+                    <Link to={brochure} download="Brochure" target='_blank'>
+                        <button className="btn btn-danger btn-lg p-3 mt-5">Brochure</button>
+                    </Link>
                 </div>
                 <div className="about">
                     <h1 className="headabout-conf">About the Conference</h1>
