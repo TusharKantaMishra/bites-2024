@@ -11,7 +11,7 @@ const Sponsors = () => {
       </h1>
       <div className="sponsor">
         <div className="sponsor-heading">
-          <h1 className="sponsor-heading-platinum">Platinum Sponsorship [INR 3,00,000 / USD 5000]</h1>
+          <h1 className="sponsor-heading-platinum">Platinum Sponsorship [INR 3,00,000 / USD 8000]</h1>
         </div>
         <h3 className="body">* The platinum conference sponsorship package combines marketing and branding association before the event and maximum exposure during the conference.Only Three Platinum Sponsorship will be made available for a particular conference. </h3>
         <div className="table-container">
@@ -55,7 +55,7 @@ const Sponsors = () => {
       </div>
       <div className="sponsor">
         <div className="sponsor-heading">
-          <h1 className="sponsor-heading-gold">Gold Sponsorship [INR 1,50,000 / USD 1800]</h1>
+          <h1 className="sponsor-heading-gold">Gold Sponsorship [INR 1,50,000 / USD 4000]</h1>
         </div>
         <h3 className="body">* A gold conference sponsorship package combines marketing and branding association before the event and extensive exposure during the conference. Six gold sponsorship packages are available for a particular conference. </h3>
         <div className="table-container">
@@ -99,7 +99,7 @@ const Sponsors = () => {
       </div>
       <div className="sponsor">
         <div className="sponsor-heading">
-          <h1 className="sponsor-heading-silver">Silver Sponsorship [INR 75,000 / USD 900]</h1>
+          <h1 className="sponsor-heading-silver">Silver Sponsorship [INR 70,000 / USD 2000]</h1>
         </div>
         <h3 className="body">* A silver conference sponsorship package combines marketing and branding association before the event and exposure during the conference. 10 silver sponsorship packages are available for a particular conference. </h3>
         <div className="table-container">
@@ -143,7 +143,7 @@ const Sponsors = () => {
       </div>
       <div className="sponsor">
         <div className="sponsor-heading">
-          <h1 className="sponsor-heading-young">Sponsorship for young researcher award [INR 40,000 / USD 500]</h1>
+          <h1 className="sponsor-heading-young">Sponsorship for young researcher award [INR 40,000 / USD 1200]</h1>
         </div>
         <h3 className="body">* Four awards will be presented during the Conference to researchers under the age of 35 who demonstrate excellent scientific work. The researcher should complete the work independently of any co-author(s). The author of the winning paper must personally present the work during the conference's award session. </h3>
         <div className="table-container">
@@ -157,19 +157,19 @@ const Sponsors = () => {
             <tbody>
               <tr className='t-body'>
                 <th scope="row">Platinum Conference Sponsor</th>
-                <td>INR 3,00,000/USD $5000</td>
+                <td>INR 3,00,000/USD $8000</td>
               </tr>
               <tr className='t-body'>
                 <th scope="row">Gold Conference Sponsor</th>
-                <td>INR 1,50,000/USD $1800</td>
+                <td>INR 1,50,000/USD $4000</td>
               </tr>
               <tr className='t-body'>
                 <th scope="row">Silver Conference Sponsor</th>
-                <td>INR 75,000/USD $900</td>
+                <td>INR 70,000/USD $2000</td>
               </tr>
               <tr className='t-body'>
                 <th scope="row">Young researcher award Sponsor</th>
-                <td>INR 40,000/USD $500</td>
+                <td>INR 40,000/USD $1200</td>
               </tr>
             </tbody>
           </table>

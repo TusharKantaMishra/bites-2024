@@ -41,50 +41,75 @@ const Speakers = () => {
                         <div className="card-body">
                             <h1 className="card-title text-danger mb-4">Keynote Address</h1>
 
-                            <h5 className="card-title">Prof. Dharmendra Tripathi</h5>
+                        
+                            <h5 className="card-title">Prof. Luís Miguel Grilo</h5>
                             <p className="card-text">
-                                Associate Professor, NIT Uttarakhand
+                                Professor, University of Evora, Portugal
                             </p>
-                            <h5 className="card-title">To be updated ...</h5>
-                            {/*<p className="card-text">
-                                To be updated ...
-                            </p>
-                             <h5 className="card-title">Proff</h5>
+                            <h5 className="card-title">Prof. Kh S Mekheimer </h5>
                             <p className="card-text">
-                                Some quick example text to build on
-                                the card title and make up the bulk
-                                of the card's content.
+                                Professor & Ex-Vice Dean (PG)
+                                <p>Al-Azhar University, Cairo</p>
                             </p>
-                            <h5 className="card-title">Proff</h5>
+                            <h5 className="card-title">Prof. Dhirendra S Katti</h5>
                             <p className="card-text">
-                                Some quick example text to build on
-                                the card title and make up the bulk
-                                of the card's content.
+                                Director, IIT Goa
                             </p>
-                            <h5 className="card-title">Proff</h5>
+                            <h5 className="card-title">Prof. Mukesh K Gupta </h5>
                             <p className="card-text">
-                                Some quick example text to build on
-                                the card title and make up the bulk
-                                of the card's content.
+                                Director, ICMR-NARFBR, Hyderabad
                             </p>
-                            <h5 className="card-title">Proff</h5>
+                            <h5 className="card-title">Dr. Sanjib Mohanty</h5>
                             <p className="card-text">
-                                Some quick example text to build on
-                                the card title and make up the bulk
-                                of the card's content.
+                                Ex Director
+                                Ispat General Hospital (IGH), Rourkela
                             </p>
-                            <h5 className="card-title">Proff</h5>
+                            <h5 className="card-title">Prof. Sunil K Khare</h5>
                             <p className="card-text">
-                                Some quick example text to build on
-                                the card title and make up the bulk
-                                of the card's content.
+                                Director, IISER Kolkata
                             </p>
-                            <h5 className="card-title">Proff</h5>
+                            <h5 className="card-title">Prof. Ashok Pandey </h5>
                             <p className="card-text">
-                                Some quick example text to build on
-                                the card title and make up the bulk
-                                of the card's content.
-                            </p> */}
+                                Exe. Director (Honorary)
+                                <p>Centre for Energy and Environmental
+                                Sustainability, Lucknow</p>          
+                            </p>
+                            <h5 className="card-title">Prof. Anuj Mubayi</h5>
+                            <p className="card-text">
+                            Illinois University USA          
+                            </p>
+                            <h5 className="card-title">Prof. Suman Chakraborty</h5>
+                            <p className="card-text">
+                            Shanti Swarup Bhatnagar Awardee 
+                            Professor, 
+                                <p>IIT Kharagpur </p>          
+                            </p>
+                            <h5 className="card-title">Prof. R Vinu </h5>
+                            <p className="card-text">
+                            Professor, IIT Madras          
+                            </p>
+                            <h5 className="card-title">Dr. S Venkata Mohan</h5>
+                            <p className="card-text">
+                            Chief Scientist, IICT Hyderabad           
+                            </p>
+                            <h5 className="card-title">Prof. Singam Jayanthu</h5>
+                            <p className="card-text">
+                            National Mineral Awardee 
+                            Professor, 
+                                <p>NIT Rourkela </p>          
+                            </p>
+                            <h5 className="card-title">Prof. Mohamed Sultan Mohamed Ali</h5>
+                            <p className="card-text">
+                            Universiti Teknologi Malaysia         
+                            </p>
+                            <h5 className="card-title">Dr. Praveen Sahu</h5>
+                            <p className="card-text">
+                            Sr. Scientist, CWS Hospital, Rourkela          
+                            </p>
+                            <h5 className="card-title">Prof. T Bhaskar </h5>
+                            <p className="card-text">
+                            Scientist F, IIP Dehradun         
+                            </p>
 
                         </div>
 

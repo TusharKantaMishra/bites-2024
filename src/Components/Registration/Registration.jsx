@@ -18,11 +18,12 @@ const Registration = () => {
                         </tr>
                     </thead>
                     <tbody>
+                        
                         <tr className='t-body'>
                             <th scope="row">1</th>
                             <td>UG/PG Students</td>
                             <td>Rs. 2500</td>
-                            <td>USD 100</td>
+                            <td>USD 75</td>
                         </tr>
                         <tr className='t-body'>
                             <th scope="row">2</th>
@@ -47,7 +48,7 @@ const Registration = () => {
                 </table>
             </div>
             <div className="t-content">
-                * Registration includes – conference kit, high tea, breakfast and lunch (GST incl.). 
+                * Registration includes - conference kit, high tea, breakfast and lunch (GST incl.). 
                 <br />
                 * Registration for student/ staff of NIT Rourkela is free.
                 <br />
