@@ -1,7 +1,9 @@
-.card-contact{
-    width: 37rem;
-    justify-content: space-around;
-    position: relative;
+
+.container-contact{
+    padding: 20px;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .card-body-contact{
     justify-content: space-around;

@@ -1,6 +1,8 @@
 // src/components/Registration.js
 import React from 'react';
 import './Registration.css'
+import { Link } from 'react-router-dom';
+import qrcode from '../Assets/QRcode.pdf'
 
 const Registration = () => {
     return (
@@ -18,7 +20,7 @@ const Registration = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        
+
                         <tr className='t-body'>
                             <th scope="row">1</th>
                             <td>UG/PG Students</td>
@@ -48,7 +50,7 @@ const Registration = () => {
                 </table>
             </div>
             <div className="t-content">
-                * Registration includes - conference kit, high tea, breakfast and lunch (GST incl.). 
+                * Registration includes - conference kit, high tea, breakfast and lunch (GST incl.).
                 <br />
                 * Registration for student/ staff of NIT Rourkela is free.
                 <br />
@@ -56,8 +58,19 @@ const Registration = () => {
                 * Accommodation will be arranged at the campus, subject to availability and charges payable by the participant.
                 <br />
                 <h2 className="boxreg">
-                Payment should be made through an Online transfer in favor of “Conference, NIT Rourkela” payable at SBI, NIT Branch to Account No.: 36734418111, IFSC: SBIN0002109, MICR: 769002007, SWIFT: SBININBB137
+                    Payment should be made through an Online transfer in favor of “Conference, NIT Rourkela” payable at SBI, NIT Branch to Account No.: 36734418111, IFSC: SBIN0002109, MICR: 769002007, SWIFT: SBININBB137
                 </h2>
+            </div>
+            <div className="registration">
+                <div class="reg-link">
+                    <Link to="https://forms.gle/s1hdv4Q9s1uoskPu9" target='_blank' class="blink-text h3">
+                        Click here to Register !
+                    </Link>
+                    <Link to={qrcode} target='_blank' class="blink-text h3">
+                       Click here to SCAN !
+                    </Link>
+                </div>
+
             </div>
         </div>
     );

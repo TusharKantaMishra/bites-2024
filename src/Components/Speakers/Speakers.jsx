@@ -119,58 +119,24 @@ const Speakers = () => {
                         <div className="card-body">
                             <h1 className="card-title text-danger mb-4" >Invited Address</h1>
 
-                            <h5 className="card-title">To be updated ...</h5>
-                            {/*<p className="card-text">
+                            <h5 className="card-title">Dr. Tikam Chand Dakal</h5>
+                            <p className="card-text">
+                            Assistant Professor, ICMR-NARFBR, Hyderabad
+                            </p>
+                             <h5 className="card-title">Dr. Vivekanand </h5>
+                            <p className="card-text">
+                            Top 2% of the world’s Scientists,
+                            <p>MNIT Jaipur</p>
+                            </p>
+                            <h5 className="card-title">Dr. Anurag Kumar Tiwari</h5>
+                            <p className="card-text">
+                            Dr B R Ambedkar National Institute of Technology, Jalandhar
+                            </p>
+                            <h5 className="card-title">Dr. Ruchi Mishra Tiwari</h5>
+                            <p className="card-text">
                                 
                             </p>
-                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p>
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Some quick example text to build on the
-                                card title and make up the bulk of the
-                                card's content.
-                            </p> */}
+                            
 
                         </div>
                     </div>

@@ -33,13 +33,15 @@ const Header = () => {
                         <div className="navbar-nav">
                             <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             <Link className="nav-link" to="/about">About</Link>
-                            <Link className="nav-link" to="/submission">Submission</Link>
                             <Link className="nav-link" to="/speakers">Speaker</Link>
                             <Link className="nav-link" to="/committees">Committees</Link>
+                            <Link className="nav-link" to="/submission">Call for Papers</Link>
                             <Link className="nav-link" to="/publications">Publications</Link>
                             <Link className="nav-link" to="/registration">Registration</Link>
                             <Link className="nav-link" to="/awards">Awards</Link>
                             <Link className="nav-link" to="/sponsors">Sponsors</Link>
+                            <Link className="nav-link" to="/media">Media Partners</Link>
+                            <Link className="nav-link" to="/places">Places to Visit</Link>
                             <Link className="nav-link" to="/contact">Contacts</Link>
 
                         </div>

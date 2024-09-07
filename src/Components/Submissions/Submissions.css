@@ -11,3 +11,26 @@
     font-weight: 500;
     color: brown;
 }
+.abstract{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head-abstract{
+    color: rgba(0, 29, 125, 0.637);
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abstract .btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .8rem;
+    border-radius: 1.5rem;
+    margin: 10px;
+}
+.abstract p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

@@ -143,7 +143,7 @@ const Sponsors = () => {
       </div>
       <div className="sponsor">
         <div className="sponsor-heading">
-          <h1 className="sponsor-heading-young">Sponsorship for young researcher award [INR 40,000 / USD 1200]</h1>
+          <h1 className="sponsor-heading-bronze">Bronze Sponsorship [INR 40,000 / USD 1200]</h1>
         </div>
         <h3 className="body">* Four awards will be presented during the Conference to researchers under the age of 35 who demonstrate excellent scientific work. The researcher should complete the work independently of any co-author(s). The author of the winning paper must personally present the work during the conference's award session. </h3>
         <div className="table-container">
@@ -168,7 +168,7 @@ const Sponsors = () => {
                 <td>INR 70,000/USD $2000</td>
               </tr>
               <tr className='t-body'>
-                <th scope="row">Young researcher award Sponsor</th>
+                <th scope="row">Bronze Sponsor</th>
                 <td>INR 40,000/USD $1200</td>
               </tr>
             </tbody>

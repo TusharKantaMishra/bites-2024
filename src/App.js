@@ -13,7 +13,8 @@ import Contact from './Components/Contact/Contact';
 import Sponsors from './Components/Sponsors/Sponsors';
 import Awards from './Components/Awards/Awards';
 import Publications from './Components/Publications/Publications';
-
+import MediaPartners from './Components/Media/Media Partners';
+import Places from './Components/Places/Places';
 const App = () => {
     return (
         <Router>
@@ -28,6 +29,8 @@ const App = () => {
                 <Route path="/registration" element={<Registration/>} />
                 <Route path="/awards" element={<Awards/>} />
                 <Route path="/sponsors" element={<Sponsors/>} />
+                <Route path="/media" element={<MediaPartners/>} />
+                <Route path="/places" element={<Places/>} />
                 <Route path="/contact" element={<Contact/>} />
             </Routes>
             <Footer />

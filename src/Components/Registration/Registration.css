@@ -46,6 +46,38 @@
     justify-content: center;
     text-align: center;
 }
+.reg-link{
+    text-align: center;
+    margin: 2rem;
+    
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink-text {
+    animation: blink 1s infinite;
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.blink-text:hover {
+    text-decoration: underline;
+    color: rgba(1, 1, 135, 0.63);
+}
+
 @media only screen and (max-width: 400px){
     .feetable{
         margin: 0;

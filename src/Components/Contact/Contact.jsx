@@ -8,9 +8,9 @@ const Contact = () => {
             <div>
                 <h2 className='heading'>Contacts</h2>
             </div>
-            <div className="container-speaker">
+            <div className="container-contact">
                 <div className="row-2">
-                    <div className="card-contact col-lg-4">
+                    <div className="card-contact">
                         <div className="card-body-contact">
                         <h5 className="card-title-contact">Prof. Ravi Kant Avvari</h5>
                             <p className="card-text-contact">
@@ -19,7 +19,7 @@ const Contact = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="card-contact col-lg-4">
+                    <div className="card-contact">
                         <div className="card-body-contact">
                         <h5 className="card-title-contact">Prof. Dharmendra Tripathi</h5>
                             <p className="card-text-contact">

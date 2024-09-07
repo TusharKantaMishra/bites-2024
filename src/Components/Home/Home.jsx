@@ -22,12 +22,13 @@ const Home = () => {
                 </div>
                 <div className="about">
                     <h1 className="headabout-conf">About the Conference</h1>
-                    <p className="bodyabout-conf">Students who are in their studies at undergraduate and postgraduate level,  research scholars, post-doctoral fellows, and faculty members of colleges  and universities, scientists and industry professionals are highly encouraged  for the program.
-                        The conference covers topics in biosciences and bioengineering area from an interdisciplinary perspective, but not limited to, such as – Cell & Molecular Engineering, Tissue Engineering & Biomaterials, Bioprocess Engineering, Environmental & Plant Biotechnology, Biomechanics & Biotransport Engineering, and Medical Electronics & Instrumentation.
+                    <p className="bodyabout-conf">The conference aims to provide an excellent platform for engineers, scientists, researchers, and professionals to share
+                        knowledge and experiences on the dynamics of the interdisciplinary approaches in solving problems of relevance to bioengineering covering major domains of Biological Innovation, Technology, Engineering and Sciences. The conference will serve as the best platform to learn and share new ideas in the area by connecting the stakeholders involved, particularly students, faculties, engineers, doctors, entrepreneurs, incubators, and enthusiasts. Further, the conference will also inspire the new generation of bioengineers to come up with novel, translatable ideas to meet the needs of the national and international
+                        community.
                     </p>
                 </div>
             </div>
-            
+
             {/* <div className="container-fluid py-5">
                 <h1 className='heading'>Timeline</h1>
 
