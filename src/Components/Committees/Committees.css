@@ -7,16 +7,16 @@
     font-family: "Poppins", sans-serif;
 }
 .co-heading{
-    font-size: 2.9rem;
-    font-weight: 700;
+    font-size: 2.3rem;
+    font-weight: 600;
     text-align: center;
-    text-decoration: underline;
     background-color: #ac492e;
     color: #fef0e6e3;
     padding: 1rem;
     margin: 2rem;
     font-family: "Poppins", sans-serif;
     border-radius: 10rem;
+    text-decoration: underline;
 }
 .card{
     margin: 1rem;
@@ -29,14 +29,31 @@
     text-align: center;
     opacity: 0.75;
 }
-.row-2{
-    padding: 0;
-}
-.card-body-committee{
-    padding: 0 .8rem;
-    justify-content: center;
+.column-committee {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row-committee {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row-committee:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    .card-committee {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 1rem;
     text-align: center;
-}
+    background-color: #fef0e6e3;
+  }
+  .card-committee h5{
+    font-size: 1rem;
+  }
 @media only screen and (max-width: 400px){
     .heading-com{
         font-size: 2.3rem;
@@ -47,4 +64,9 @@
     .card-body p{
         font-size: .8rem;
     }
+    .column-committee {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
 }

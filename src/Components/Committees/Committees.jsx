@@ -2,12 +2,13 @@ import React from 'react'
 import './Committees.css'
 
 const Committees = () => {
+    
     return (
         <div>
             <>
-            <h1 className="heading-com">Committees</h1>
-            <h2 className="co-heading">Patron</h2>
-            <div className="card-committees">
+                <h1 className="heading-com">Committees</h1>
+                <h2 className="co-heading">Patron</h2>
+                <div className="card-committees">
                     <div className="card w-75" >
                         <div className="card-body w-70">
                             <h5 className="card-title">Prof. K. Umamaheshwar Rao</h5>
@@ -17,8 +18,8 @@ const Committees = () => {
                         </div>
                     </div>
                 </div>
-            <h2 className="co-heading">Chairman</h2>
-            <div className="card-committees">
+                <h2 className="co-heading">Chairman</h2>
+                <div className="card-committees">
                     <div className="card w-75" >
                         <div className="card-body w-70">
                             <h5 className="card-title">Prof. Devendra Verma</h5>
@@ -80,201 +81,131 @@ const Committees = () => {
                     </div>
                 </div>
                 <h2 className="co-heading">Organising-Members</h2>
-                <div className="container-committee">
-                <div className="row-2">
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. A Thirugnanam
-                        </h5>
-                            <p className="card-text-committee">
-                                Professor
-                            </p>
+                <div class="row-committee">
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. A Thirugnanam</h5>
+                            <p>Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Amit Biswas
-                        </h5>
-                            <p className="card-text-committee">
-                                Associate Professor
-                            </p>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Amit Biswas</h5>
+                            <p>Associate Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Amrita Singh</h5>
-                            <p className="card-text-committee">
-                               Assistant Professor
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Amrita Singh</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Anamika Singh</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Dharmendra Tripathi</h5>
-                            <p className="card-text-committee">
-                                dtripathi@nituk.ac.in
-                                <p>+(91) 8385882005</p>
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Angana Sarkar</h5>
+                            <p>Associate Professor</p>
                         </div>
                     </div>
-                </div>
-            </div>
-                <div className="container-committee">
-                <div className="row-2">
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Anju R. Babu</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Bala Chakravarthy Neelapu</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Balasubramanian P</h5>
+                            <p> Associate Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Bibhukalyan Prasad Nayak</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Dharmendra Tripathi</h5>
-                            <p className="card-text-committee">
-                                dtripathi@nituk.ac.in
-                                <p>+(91) 8385882005</p>
-                            </p>
+                    
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Kasturi Dutta</h5>
+                            <p>Associate Professor</p>
                         </div>
                     </div>
-                </div>
-            </div>
-                <div className="container-committee">
-                <div className="row-2">
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Krishna Pramanik</h5>
+                            <p>Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Kunal Pal</h5>
+                            <p>Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Lohit Kumar Srinivas Gujjala</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Mirza Khalid Baig</h5>
+                            <p>Assistant Professor</p>
                         </div>
                     </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Dharmendra Tripathi</h5>
-                            <p className="card-text-committee">
-                                dtripathi@nituk.ac.in
-                                <p>+(91) 8385882005</p>
-                            </p>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Mukesh Kumar Gupta</h5>
+                            <p>Professor</p>
+                        </div>
+                    </div>
+
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Nandini Sarkar</h5>
+                            <p>Associate Professor</p>
+                        </div>
+                    </div>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Nivedita Patra</h5>
+                            <p>Associate Professor</p>
+                        </div>
+                    </div>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Sivaraman J.</h5>
+                            <p>Assistant Professor</p>
+                        </div>
+                    </div>
+                    <div class="column-committee">
+                        <div class="card-committee">
+                            <h5>Prof. Subhankar Paul</h5>
+                            <p>Professor</p>
                         </div>
                     </div>
                 </div>
-            </div>
-                <div className="container-committee">
-                <div className="row-2">
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Ravi Kant Avvari</h5>
-                            <p className="card-text-committee">
-                                kantar@nitrkl.ac.in
-                                <p>+(91) 9866859277</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="card-committee">
-                        <div className="card-body-committee">
-                        <h5 className="card-title-committee">Prof. Dharmendra Tripathi</h5>
-                            <p className="card-text-committee">
-                                dtripathi@nituk.ac.in
-                                <p>+(91) 8385882005</p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                
             </>
         </div>
     )

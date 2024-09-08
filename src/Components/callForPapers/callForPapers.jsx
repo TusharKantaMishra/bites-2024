@@ -1,7 +1,7 @@
 import React from 'react'
-import './Submissions.css'
+import './callForPapers.css'
 
-const Submissions = () => {
+const callForPapers = () => {
         const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
       };
@@ -39,4 +39,4 @@ const Submissions = () => {
     )
 }
 
-export default Submissions
+export default callForPapers

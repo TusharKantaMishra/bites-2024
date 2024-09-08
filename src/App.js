@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
 import Committees from './Components/Committees/Committees'
-import Submissions from './Components/Submissions/Submissions';
+import CallForPapers from './Components/callForPapers/callForPapers';
 import Speakers from './Components/Speakers/Speakers';
 import Registration from './Components/Registration/Registration';
 import Contact from './Components/Contact/Contact';
@@ -15,6 +15,7 @@ import Awards from './Components/Awards/Awards';
 import Publications from './Components/Publications/Publications';
 import MediaPartners from './Components/Media/Media Partners';
 import Places from './Components/Places/Places';
+import GoToTop from './Components/goToTop';
 const App = () => {
     return (
         <Router>
@@ -24,7 +25,7 @@ const App = () => {
                 <Route exact path="/about" element={<About/>} />
                 <Route path="/speakers" element={<Speakers/>} />
                 <Route path="/committees" element={<Committees/>} />
-                <Route path="/submission" element={<Submissions/>} />
+                <Route path="/callForPapers" element={<CallForPapers/>} />
                 <Route path="/publications" element={<Publications/>} />
                 <Route path="/registration" element={<Registration/>} />
                 <Route path="/awards" element={<Awards/>} />
@@ -33,6 +34,7 @@ const App = () => {
                 <Route path="/places" element={<Places/>} />
                 <Route path="/contact" element={<Contact/>} />
             </Routes>
+            <GoToTop/>
             <Footer />
         </Router>
     );
