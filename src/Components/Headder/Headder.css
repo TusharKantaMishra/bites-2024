@@ -1,4 +1,11 @@
-
+.heading{
+    font-size: 2.8rem;
+    margin: 1rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #681c1c;
+}
 .w3-upper-write{
     display: flex;
     justify-content: center;
@@ -6,26 +13,26 @@
     background-color: #fef0e6;
 }
 .leftimg{
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
     left: 1.79rem;
 }
 .rightimg{
-    width: 11rem;
-    height: 9rem;
+    width: 8.5rem;
+    height: 7rem;
     right: 1.79rem;
 }
-.centre-text h1{
-    display: flex;
-    flex-direction: column;
+.centre-text p{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(104, 28, 28);
-
+}
+.centre-text p i{
+    font-weight: 500;
 }
 .container-fluid{
     background-color: #fef0e6;
@@ -34,11 +41,11 @@
     display: flex;
     flex-direction: column;
     color: #fef0e6;
-    padding: 1.2rem;
+    padding: 1.1rem;
     margin: 0 0.5rem;
     align-items: center;
     justify-content: center;
-    font-size: .95rem;
+    font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.4s ease;
@@ -48,7 +55,7 @@
     color: rgb(104, 28, 28);
     background-color: #fef0e6;
     border-radius: 1.6rem;
-    padding: .7rem;
+    padding: .5rem;
 }
 #navbarNavAltMarkup{
     justify-content: center;
@@ -69,22 +76,6 @@
     display: flex;
     flex-direction: column;
 } */
-.headding{
-    font-size: 4.2rem;
-    margin: 2.5rem;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    color: rgb(104, 28, 28);
-}
-.date{
-    font-size: 2rem;
-    height: 1.6rem;
-    padding: 1.6rem;
-    margin: 2.4rem;
-    font-style: normal;
-    color: rgb(1, 62, 67);
-}
 .image{
     background-image: url(../Assets/logo.webp);
     width: 100%;
@@ -98,7 +89,7 @@
     background-attachment: fixed;
     background-size: cover;
     justify-content: center;
-    animation: change 20s infinite ease-in-out alternate-reverse; 
+    animation: change 40s infinite ease-in-out alternate-reverse; 
 
  }
 @keyframes change{

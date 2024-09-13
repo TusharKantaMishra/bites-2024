@@ -7,8 +7,8 @@ const callForPapers = () => {
       };
     return (
         <>
-            <div className="heading">
-                <h1>Scope of Conference</h1>
+            <div>
+                <h1 className="heading">Scope of Conference</h1>
             </div>
             <div className="topics">
                 <p>

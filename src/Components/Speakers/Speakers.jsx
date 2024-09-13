@@ -7,8 +7,8 @@ const Speakers = () => {
         <>
             <div className="heading">
                 <h1 className='heading'>The list of Speakers who have given consent to be part of BITES-2024</h1>
-                <h2 className='mt-4 fw-bold'>Planery Address</h2>
-                <h1 className="heading">To be updated ...</h1>
+                {/* <h2 className='mt-4 fw-bold'>Planery Address</h2>
+                <h1 className="heading">To be updated ...</h1> */}
 
             </div>
             {/* <div className="container-speaker">

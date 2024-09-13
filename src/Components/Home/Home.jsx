@@ -7,17 +7,12 @@ const Home = () => {
     return (
         <div className="container-fluid-1 bg-body-primary">
             <div className="row">
-                <div className="col-12 text-center">
-                    <h1 className='headding'>BITES-2024</h1>
-                    <h1 className="up-text">International Conference on
-                        <br />
-                        Biological Innovation, Technology, Engineering and Sciences
-                    </h1>
-                    <h2 className='date'>18th -20th December 2024</h2>
-                    <h2> Organized by</h2>
-                    <h2>National Institute of Technology Rourkela</h2>
+                <div className="text-center">
+                    <p1 className='heading-home'>International Conference on Biological Innovation, Technology, Engineering and Sciences (BITES-2024)
+                    </p1>
+                    <p className='date-home'>18th -20th December 2024</p>
                     <Link to={brochure} download="Brochure" target='_blank'>
-                        <button className="btn btn-danger btn-lg p-3 mt-5">Brochure</button>
+                        <button className="btn btn-danger btn-lg p-2 m-2">Brochure</button>
                     </Link>
                 </div>
                 <div className="about">
@@ -25,6 +20,11 @@ const Home = () => {
                     <p className="bodyabout-conf">The conference aims to provide an excellent platform for engineers, scientists, researchers, and professionals to share
                         knowledge and experiences on the dynamics of the interdisciplinary approaches in solving problems of relevance to bioengineering covering major domains of Biological Innovation, Technology, Engineering and Sciences. The conference will serve as the best platform to learn and share new ideas in the area by connecting the stakeholders involved, particularly students, faculties, engineers, doctors, entrepreneurs, incubators, and enthusiasts. Further, the conference will also inspire the new generation of bioengineers to come up with novel, translatable ideas to meet the needs of the national and international
                         community.
+                    </p>
+                </div>
+                <div className="about">
+                    <h1 className="headabout-conf">Theme of the Conference</h1>
+                    <p className="bodyabout-conf"><b>"The Future of Biological Innovation"</b> serves as a compelling focal point for the conference, offering a platform to explore a diverse array of topics. This theme delves into emerging technologies and pioneering research, focusing on how technology and engineering are unlocking new potentials in biological research, sharing ideas, and addressing challenges in the field. The conference covers topics in biosciences and bioengineering area from an interdisciplinary perspective, but not limited to, such as – Cell & Molecular Engineering, Tissue Engineering & Biomaterials, Bioprocess Engineering, Environmental & Plant Biotechnology, Biomechanics & Biotransport Engineering, and Medical Electronics &Instrumentation.
                     </p>
                 </div>
             </div>

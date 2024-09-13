@@ -7,7 +7,7 @@ import qrcode from '../Assets/QRcode.pdf'
 const Registration = () => {
     return (
         <div>
-            <h1 className="heading-reg">Online Registration and Payment</h1>
+            <h1 className="heading">Online Registration and Payment</h1>
             <h1 className="feetable">Fee Table</h1>
             <div className="table-container">
                 <table className="table table-striped table-hover table-bordered table-light">

@@ -9,7 +9,7 @@ const Places = () => {
       <h1 className='heading'>Places to Visit</h1>
       <div className="places-body">
         <CardGroup>
-          <Card>
+          <Card className='places-each'>
             <Card.Img variant="top" src="https://www.gosahin.com/go/p/i/t1/1565504238_hanuman-vatika-rourkela1.jpg" />
             <Card.Body>
               <Card.Title className='places-title'>Hanuman Vatika</Card.Title>
@@ -18,7 +18,7 @@ const Places = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card>
+          <Card className='places-each'>
             <Card.Img variant="top" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/29/89/f8/img-20160930-095020-largejpg.jpg?w=2000&h=-1&s=1" />
             <Card.Body>
               <Card.Title className='places-title'>Vaishno Devi Temple</Card.Title>
@@ -27,7 +27,18 @@ const Places = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card>
+        </CardGroup>
+        <CardGroup>
+          <Card className='places-each'>
+            <Card.Img variant="top" src="https://www.gosahin.com/go/p/i/t1/1565504238_hanuman-vatika-rourkela1.jpg" />
+            <Card.Body>
+              <Card.Title className='places-title'>Hanuman Vatika</Card.Title>
+              <Card.Text className='places-about'>
+                Hanuman Vatika, or the garden belonging to Lord Hanuman, is situated in Civil Township, Rourkela. The garden houses one of the world's tallest statue of Hanuman. Other temples inside the premises are 12 Jyotirlingas, Batta Mangala Devi, Sarala Devi Temple, Jagannath Temple, Lakshmi, and Santoshi Mata Temple.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card className='places-each'>
             <Card.Img variant="top" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ec/63/86/the-most-state-of-the.jpg?w=1400&h=800&s=1" />
             <Card.Body>
               <Card.Title className='places-title'>Birsa Munda International Hockey Stadium</Card.Title>
@@ -36,7 +47,7 @@ const Places = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-        </CardGroup>
+          </CardGroup>
       </div>
     </div>
   )
