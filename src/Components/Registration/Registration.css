@@ -1,21 +1,13 @@
-.heading-reg{
-    text-align: center;
-    font-size: 2.5rem;
-    color: rgb(97, 30, 30);
-    margin: 20px;
-}
 .feetable{
     margin: 30px;
-    padding-left: 120px;
+    padding-left: 20px;
 }
 .table-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
 }
 .table{
- width: 89%;
  justify-content: center;
  align-items: center;
  height: 200px;
@@ -27,29 +19,32 @@
 }
 .t-content{
     color: rgb(97, 30, 30);
-    padding: 28px;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 500;
+    margin: 1rem;
 }
 .t-head{
-    font-size: 30px;
+    font-size: 18px;
 }
 .t-body{
-    font-size: 25px;
+    font-size: 15px;
 }
 .boxreg{
+    display: flex;
     background-color: rgb(106, 36, 36); 
     color: #fef0e6;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     margin: 20px;
     justify-content: center;
     text-align: center;
+    font-size: 1.1rem;
 }
 .reg-link{
-    text-align: center;
-    margin: 2rem;
-    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 40px;  
 }
 @keyframes blink {
     0% {

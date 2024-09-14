@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'
 import brochure from '../Assets/brochure.pdf'
+import media1 from '../Assets/Media1.png'
+
 
 const Home = () => {
     return (
@@ -26,6 +28,15 @@ const Home = () => {
                     <h1 className="headabout-conf">Theme of the Conference</h1>
                     <p className="bodyabout-conf"><b>"The Future of Biological Innovation"</b> serves as a compelling focal point for the conference, offering a platform to explore a diverse array of topics. This theme delves into emerging technologies and pioneering research, focusing on how technology and engineering are unlocking new potentials in biological research, sharing ideas, and addressing challenges in the field. The conference covers topics in biosciences and bioengineering area from an interdisciplinary perspective, but not limited to, such as – Cell & Molecular Engineering, Tissue Engineering & Biomaterials, Bioprocess Engineering, Environmental & Plant Biotechnology, Biomechanics & Biotransport Engineering, and Medical Electronics &Instrumentation.
                     </p>
+                </div>
+            </div>
+
+            <div className="media-partners">
+                <h3 className='heading-media'>Media Partners</h3>
+                <div className="mediaimg">
+                    <Link to='https://allconferencealert.net/' target='_blank'>
+                        <img className="media1" src={media1} alt="" />
+                    </Link>
                 </div>
             </div>
 

@@ -36,7 +36,7 @@ const Committees = () => {
                     <Card.Body>
                         <Card.Title><h5 className="card-title-committees">Prof. Devendra Verma</h5></Card.Title>
                         <Card.Text>
-                        <p className="card-text-committees">HoD. Dept. of Biotechnology and Medical Engineering</p>
+                        <p className="card-text-committees">HoD, Dept. of Biotechnology and Medical Engineering</p>
                         <p className="card-text-committees">NIT Rourkela</p>
                         <a href="https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/kantar" className="btn   btn-secondary btn-lg">Profile</a>
                         </Card.Text>
@@ -60,7 +60,7 @@ const Committees = () => {
                     <Card.Body>
                         <Card.Title><h5 className="card-title-committees">Prof. Dharmendra Tripathi</h5></Card.Title>
                         <Card.Text>
-                        <p className="card-text-committees">Associate Professor</p>
+                        <p className="card-text-committees">Dean SW Associate Professor</p>
                         <p className="card-text-committees">Dept. of Mathematics</p>
                         <p className="card-text-committees">NIT Uttarakhand</p>
                         <a href="https://portfolios.nituk.ac.in/419/dharmendra-tripathi/personal-details" className="btn btn-secondary btn-lg">Profile</a>
@@ -75,8 +75,7 @@ const Committees = () => {
                         <Card.Title><h5 className="card-title-committees">Prof. Prasoon Kumar</h5></Card.Title>
                         <Card.Text>
                         <p className="card-text-committees">Assistant Professor</p>
-                        <p className="card-text-committees">Dept. of Biotechnology and Medical Engineering</p>
-                        <p className="card-text-committees">NIT Rourkela</p>
+                        <p className="card-text-committees">Dept. of Biotechnology and Medical Engineering, NIT Rourkela</p>
                         <a href="https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/kumarprasoon" className="btn btn-secondary btn-lg">Profile</a>
                         </Card.Text>
                     </Card.Body>
@@ -86,8 +85,7 @@ const Committees = () => {
                         <Card.Title><h5 className="card-title-committees">Prof. Earu Banoth</h5></Card.Title>
                         <Card.Text>
                         <p className="card-text-committees">Assistant Professor</p>
-                        <p className="card-text-committees">Dept. of Biotechnology and Medical Engineering</p>
-                        <p className="card-text-committees">NIT Rourkela</p>
+                        <p className="card-text-committees">Dept. of Biotechnology and Medical Engineering, NIT Rourkela</p>
                         <a href="https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/banothe" className="btn btn-secondary btn-lg">Profile</a>
                         </Card.Text>
                     </Card.Body>
@@ -182,6 +180,12 @@ const Committees = () => {
                         <p>Professor</p>
                     </div>
                 </div>
+                <div class="column-committee">
+                    <div class="card-committee">
+                        <h5>Prof. Lohit Ku. Srinivas Gujjala</h5>
+                        <p>Assistant Professor</p>
+                    </div>
+                </div>
 
                 <div class="column-committee">
                     <div class="card-committee">
@@ -219,13 +223,6 @@ const Committees = () => {
                     <div class="card-committee">
                         <h5>Prof. Subhankar Paul</h5>
                         <p>Professor</p>
-                    </div>
-                </div>
-
-                <div class="column-committee">
-                    <div class="card-committee">
-                        <h5>Prof. Lohit Kumar Srinivas Gujjala</h5>
-                        <p>Assistant Professor</p>
                     </div>
                 </div>
             </div>

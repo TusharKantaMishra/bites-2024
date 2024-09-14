@@ -8,7 +8,7 @@ const callForPapers = () => {
     return (
         <>
             <div>
-                <h1 className="heading">Scope of Conference</h1>
+                <h1 className="heading">Key Topics BITES-2024</h1>
             </div>
             <div className="topics">
                 <p>
@@ -29,7 +29,7 @@ const callForPapers = () => {
                 </p>
             </div>
             <div className='abstract'>
-                <h1 className='head-abstract'>Abstract Submission</h1>
+                <h1 className='head-abstract'>Submission of Abstract</h1>
                 <p>
                     Authors are invited to submit abstracts of original research work. The abstract should be submitted in the prescribed format through the online submission system. The abstract should clearly state the purpose, results, and conclusions of the work to be described in the final paper. The abstract should be submitted in the prescribed format through the online submission system.
                 </p>

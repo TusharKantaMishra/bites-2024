@@ -8,7 +8,7 @@ const Registration = () => {
     return (
         <div>
             <h1 className="heading">Online Registration and Payment</h1>
-            <h1 className="feetable">Fee Table</h1>
+            <h3 className="feetable">Fee Table</h3>
             <div className="table-container">
                 <table className="table table-striped table-hover table-bordered table-light">
                     <thead >
@@ -63,12 +63,15 @@ const Registration = () => {
             </div>
             <div className="registration">
                 <div class="reg-link">
-                    <Link to="https://forms.gle/s1hdv4Q9s1uoskPu9" target='_blank' class="blink-text h3">
+                    <div><Link to="https://forms.gle/s1hdv4Q9s1uoskPu9" target='_blank' class="blink-text h3">
                         Click here to Register !
                     </Link>
+                    </div>
+                    <div>
                     <Link to={qrcode} target='_blank' class="blink-text h3">
-                       Click here to SCAN !
+                       Link to QR code !
                     </Link>
+                    </div> 
                 </div>
 
             </div>

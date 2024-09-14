@@ -12,7 +12,7 @@ const Header = () => {
                     <img className='leftimg' src={imgleft} alt=''></img>
                 </div>
                 <div className="centre-text">
-                    <p>Dept. of Biotechnology and Medical Engg., & Dept. of Mechanical Engg. (NIT Rourkela) <i>in association with</i> National Institute of Technology Uttarakhand</p>
+                    <p>Dept. of Biotechnology and Medical Engg., & Dept. of Mechanical Engg. (NIT Rourkela) <i>in association with</i>  National Institute of Technology Uttarakhand</p>
                 </div>
                 <div className='right-side'>
                     <img className='rightimg' src={imgright} alt=''></img>
@@ -39,7 +39,7 @@ const Header = () => {
                             {/* <Link className="nav-link" to="/publications">Publications</Link> */}
                             <Link className="nav-link" to="/registration">Registration</Link>
                             <Link className="nav-link" to="/awards">Awards</Link>
-                            <Link className="nav-link" to="/sponsors">Sponsors</Link>
+                            <Link className="nav-link" to="/sponsors">Sponsorship</Link>
                             <Link className="nav-link" to="/places">To Visit</Link>
                             <Link className="nav-link" to="/contact">Contacts</Link>
 

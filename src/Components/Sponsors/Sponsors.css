@@ -1,50 +1,55 @@
 
 .body{
-    font-size: 1.8rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    font-weight: 550;
-    margin: 20px;
-    padding: auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 1rem;
+    text-align: left;
+}
+.table-container{
+    height: auto;
 }
 .sponsor-heading{
-    font-size: 2rem;
+    font-size: 1.1rem;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 .sponsor-heading-platinum{
     background-color: #c8d3e2;
     color: #35383b;
     border-radius: 10rem;
     font-weight: 700;
-    padding: .7rem;
+    padding: .4rem;
+    font-size: 1.5rem;
 }
 .sponsor-heading-gold{   
     background-color: gold;
     color: rgb(97, 83, 0);
-    padding: .7rem;
-    font-weight: 700;
     border-radius: 10rem;
+    font-weight: 700;
+    padding: .4rem;
+    font-size: 1.5rem;
   
 }
 .sponsor-heading-silver{
     background-color: silver;
     color: rgb(71, 71, 71);
-    padding: .7rem;
-    font-weight: 700;
     border-radius: 10rem;
+    font-weight: 700;
+    padding: .4rem;
+    font-size: 1.5rem;
 }
 .sponsor-heading-bronze{
     background-color: #a06b44;
     color: #3b2819;
-    padding: .7rem;
-    font-weight: 700;
     border-radius: 10rem;
+    font-weight: 700;
+    padding: .4rem;
+    font-size: 1.5rem;
 }
 .table{
-    width: 89%;
+    width: 55%;
     justify-content: center;
     align-items: center;
     height: 200px;
@@ -52,7 +57,7 @@
     opacity: 0.8;
    }
    .t-head-sponsor{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #681c1c;
     font-family: Georgia, 'Times New Roman', Times, serif;
