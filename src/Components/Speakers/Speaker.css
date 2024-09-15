@@ -1,4 +1,10 @@
-
+.card-title-address{
+    color: #681c1c;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 1rem;
+}
 .container-speaker{
     padding: 15px;  
     justify-content: center;
@@ -12,13 +18,14 @@
 .row-2{
     display: flex;
     justify-content: center;
-    padding: 15px;
-    opacity: 0.7;
+    padding: 20px;
+    opacity: 0.85;
+    width: 100%;
 }
 .card-title{
     color: black;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .card-text{
     color: black;
@@ -26,22 +33,28 @@
     font-size: .8rem;
 }
 @media only screen and (max-width: 400px){
-    .heading{
-        margin: 0;
-        padding: 0;
-        font-size: 1.7rem;
-    }
     .container-speaker{
         padding: 0;
         margin: 0;
     }
+    .row-2{
+        padding: 0;
+        margin: 0;
+    }
+    .card-title-address{
+        font-size: .8rem;
+        margin: 4px;
+    }
     .card-title{
-        font-size: .7rem;
+        font-size: 0.6rem;
     }
     .card-text{
-        font-size: .3rem;
+        font-size: .4rem;
     }
     .card{
-        width: 40%;
+        width: 50%;
+    }
+    .container-speaker{
+        padding: 0;
     }
 }

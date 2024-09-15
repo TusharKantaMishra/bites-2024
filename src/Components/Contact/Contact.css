@@ -17,12 +17,6 @@
     font-weight: 700;
     color: black;
 }
-.card-body-contact{
-    font-family: sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: black;
-}
 .to-reach-content{
     display: flex;
     padding: 10px;
@@ -81,17 +75,43 @@ iframe {
 }
 @media only screen and (max-width: 400px){
     .row-2{
-        width: 85%;
         display: flex;
-        flex-direction: column;
     }
     .card-body-contact h5{
-        font-size: 1.2rem;
+        font-size: .7rem;
     }
-     .card-contact{
+    .card-body-contact p{
+        font-size: .6rem;
+    }
+    .to-reach-content{
+        padding: 0;
+        display: block;
+    }
+    .to-reach{
+        font-size: 20px;
+        margin: 10px;
+    }
+    iframe{
         width: 100%;
-     }
-     .row-2 p{
-            font-size: 1rem;
-        }
+        height: 100px;
+    }
+    .right-reach{
+        width: 95%;
+        margin: 10px;
+    }
+    .heading-reach{
+        font-size: 15px;
+    }
+    .body-reach{
+        font-size: 10px;
+    }
+    .byIcon{
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+    .to-reach-table{
+        display: block;
+    }
+
 }

@@ -10,9 +10,9 @@ const Speakers = () => {
             </div>
             <div className="container-speaker">
                 <div className="row-2">
-                    <div className="card col-lg-5">
-                        <div className="card-body">
-                            <h1 className="card-title text-danger mb-4">Keynote Address</h1>
+                    <div className="card">
+                        <div className="card-body p-3">
+                            <h1 className="card-title-address">Keynote Address</h1>
 
                         
                             <h5 className="card-title">Prof. Luís Miguel Grilo</h5>
@@ -47,15 +47,25 @@ const Speakers = () => {
                                 <p>Centre for Energy and Environmental
                                 Sustainability, Lucknow</p>          
                             </p>
-                            <h5 className="card-title">Prof. Anuj Mubayi</h5>
-                            <p className="card-text">
-                            Illinois University USA          
-                            </p>
                             <h5 className="card-title">Prof. Suman Chakraborty</h5>
                             <p className="card-text">
                             Shanti Swarup Bhatnagar Awardee 
                             Professor, 
                                 <p>IIT Kharagpur </p>          
+                            </p>
+                            <h5 className="card-title">Prof. Minakshi Prasad</h5>
+                            <p className="card-text">
+                            Editor-in-Chief, 
+                                <p>Indian J. of Microbiology</p>          
+                            </p>
+                            <h5 className="card-title">Prof. Sashikanta Dash</h5>
+                            <p className="card-text">
+                            Dy. Director (Biotech.),  
+                                <p>S&T Odisha</p>          
+                            </p>
+                            <h5 className="card-title">Prof. Anuj Mubayi</h5>
+                            <p className="card-text">
+                            Illinois University USA          
                             </p>
                             <h5 className="card-title">Prof. R Vinu </h5>
                             <p className="card-text">
@@ -83,14 +93,23 @@ const Speakers = () => {
                             <p className="card-text">
                             Scientist F, IIP Dehradun         
                             </p>
+                            <h5 className="card-title">Prof. Suresh Kumar Dubey</h5>
+                            <p className="card-text">
+                            Professor, BHU, Varanasi         
+                            </p>
+                            <h5 className="card-title">Mr. Dhiren Pattanayak</h5>
+                            <p className="card-text">
+                            Asst. Controller (P&D),
+                            <p>IPO Kolkata</p>         
+                            </p>
 
                         </div>
 
                     </div>
 
-                    <div className="card col-lg-5">
-                        <div className="card-body">
-                            <h1 className="card-title text-danger mb-4" >Invited Address</h1>
+                    <div className="card">
+                        <div className="card-body p-4">
+                            <h1 className="card-title-address" >Invited Address</h1>
 
                             <h5 className="card-title">Dr. Tikam Chand Dakal</h5>
                             <p className="card-text">
@@ -105,12 +124,6 @@ const Speakers = () => {
                             <p className="card-text">
                             Dr B R Ambedkar National Institute of Technology, Jalandhar
                             </p>
-                            <h5 className="card-title">Dr. Ruchi Mishra Tiwari</h5>
-                            <p className="card-text">
-                                
-                            </p>
-                            
-
                         </div>
                     </div>
                 </div>

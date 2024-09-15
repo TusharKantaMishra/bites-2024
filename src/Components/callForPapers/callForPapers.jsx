@@ -305,7 +305,15 @@ const callForPapers = () => {
         <p>
           Authors are invited to submit abstracts of original research work. The abstract should be submitted in the prescribed format through the online submission system. The abstract should clearly state the purpose, results, and conclusions of the work to be described in the final paper. The abstract should be submitted in the prescribed format through the online submission system.
         </p>
-        <button onClick={() => openInNewTab('https://forms.gle/YjRAw5J5uQAPjPcUA')} class="btn btn-outline-warning btn-lg">Submit</button>
+        <button onClick={() => openInNewTab('https://forms.gle/YjRAw5J5uQAPjPcUA')} className="btn btn-outline-warning btn-lg">Submit</button>
+      </div>
+      <div className="publications">
+        <h1 className="head-publication">Publications</h1>
+        <p>
+          1. Souvenir (conference proceedings)
+        <br />
+          2. Journals/Book series (to be updated soon after consent from the publishers)
+        </p>
       </div>
     </>
   )

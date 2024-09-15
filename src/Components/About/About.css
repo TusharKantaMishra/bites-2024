@@ -36,20 +36,22 @@
     text-align: center;
 }
 @media only screen and (max-width: 400px){
-    .heading{
-        font-size: 1rem;
-        padding: .2rem;
-    }
     .body{
-        font-size: .5rem;
+        font-size: .1rem;
         padding: .2rem;
     }
     .nitrbody p{
-        font-size: 1rem;
+        font-size: .7rem;
         text-align: justify;
+        font-weight: 200;
     }
-    .nitrbody h1{
-        font-size: 1.5rem;
+    .nitrbody h3{
+        font-size: 1rem;
         justify-content: center;
+        font-weight: bold;
+    }
+    .icon-class{
+        height: 40px;
+        width: 40px;
     }
 }

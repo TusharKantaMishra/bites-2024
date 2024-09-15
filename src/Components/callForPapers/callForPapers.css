@@ -20,6 +20,19 @@
     font-weight: 500;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+.publications{
+  margin: 2rem;
+}
+.head-publication{
+    color: #0c2b87;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.publications p{
+    font-size: 1rem;
+    font-weight: 00;
+}
 .abstract .btn{
     font-size: 1.2rem;
     font-weight: 600;
@@ -202,7 +215,11 @@ body {
 }
 
 /* Responsive design for smaller devices */
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
+  .App{
+    padding: 10px;
+    margin: 0;
+  }
   .horizontal-dropdown {
     display: block;
     padding: 0 5px;
@@ -211,5 +228,38 @@ body {
   .dropdown {
     margin-bottom: 15px;
     width: 100%;
+  }
+  .abstract{
+    margin: 6px;
+  }
+  .head-abstract{
+    font-size: 20px;
+    padding: 0;
+    margin: 6px;
+  }
+  .abstract p {
+    font-size: 10px;
+    padding: 0;
+    margin: 6px;
+  }
+  .btn{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px;
+    border-radius: 4px;
+    margin: 0;
+  }
+  .publications{
+    margin: 6px;
+  }
+  .head-publication{
+    font-size: 20px;
+    padding: 0;
+    margin: 6px;
+  }
+  .publications p{
+    font-size: 10px;
+    padding: 0;
+    margin: 6px;
   }
 }

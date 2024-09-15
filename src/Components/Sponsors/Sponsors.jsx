@@ -149,14 +149,17 @@ const Sponsors = () => {
           </table>
         </div>
       </div>
-      <div>
-        <h4>
+      <div className='spon-opper'>
+        <h4 className='head-spon-down'>
           # Additional Sponsorship opportunities:
         </h4>
-        <p className='body'>
+        <p className='body-spon-down'>
           o Conference kit with stationary
+          <br />
           o Gala dinner
+          <br />
           o Lunch/Dinner
+          <br />
           o High Tea</p>
       </div>
       <div>

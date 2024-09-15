@@ -63,7 +63,26 @@ const Places = () => {
       distance: '192 km',
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Hirakud_Dam_Panorama_%28cropped%29.jpg/1200px-Hirakud_Dam_Panorama_%28cropped%29.jpg?20200523104111'
     },
+    {
+      name: 'Ushakothi Wildlife Sanctuary',
+      description: 'It is situated at a distance of about 22 kilometres from Sambalpur. To the west of the Sanctuary lies Hirakud Dam. Presently there are about 15 tigers and 35 elephants in the sanctuary. It is rich in avifaunal wealth and the main attraction of this sanctuary are racket tail drangos and flying squirrel. For night halts there is one two roomed forest rest house inside the sanctuary.',
+      distance: '156 km',
+      image: 'https://cdn.testbook.com/1697122500396-wildlife%20sanctuary%20in%20odisha.jpg/1697122501.jpeg'
+    },
+    {
+      name: 'Debrigarh Wildlife Sanctuary',
+      description: 'It is situated near the city of Sambalpur`s Hirakud Dam. The Debrigarh Wildlife Sanctuary is an important location for the conservation of various local wildlife and their habitat. It is home to a wide variety of flora and fauna. Over 40 species of mammals, 200 species of birds, 40 species of reptiles, 12 species of amphibians, 42 species of fishes, 39 species of odonates, 85 species of butterflies and 38 species of spiders have been found living in the sanctuary.',
+      distance: '216 km',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo3Kyb3-Rz9rkBEMxGemtefkbVEbwLFM6F2Q&s'
+    },
+    {
+      name: 'Simlipal National Park',
+      description: 'It is part of the Mayurbhanj Elephant Reserve, which includes three protected areas, Similipal Tiger Reserve, Hadgarh Wildlife Sanctuary with 191.06 km2 (73.77 sq mi) and Kuldiha Wildlife Sanctuary with 272.75 km2 (105.31 sq mi). Simlipal National Park derives its name from the abundance of red silk cotton trees growing in the area. The park is home to Bengal tiger, Asian elephant, gaur, and chausingha. This protected area is part of the UNESCO World Network of Biosphere Reserves since 2009.',
+      distance: '246 km',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo3Kyb3-Rz9rkBEMxGemtefkbVEbwLFM6F2Q&s'
+    },
   ];
+  
   const [expanded, setExpanded] = useState(places.map(() => false));
 
   const toggleReadMore = (index) => {
@@ -79,7 +98,7 @@ const Places = () => {
         {places.map((place, index) => (
           <div className="place-card" key={index}>
             <img src={place.image} alt={place.name} className="place-image" />
-            <h4>{place.name}</h4>
+            <h4 className='place-name'>{place.name}</h4>
             <p>
               {expanded[index] ? place.description : place.shortDescription}
             </p>

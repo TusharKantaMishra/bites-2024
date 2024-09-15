@@ -78,22 +78,37 @@
         margin: 0;
     }
     .table{
-        width: 100%;
+        width: 90%;
     }
     .t-head{
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
     .t-body{
-        font-size: 1rem;
+        font-size: .6rem;
+    }
+    .table-container{
+        margin: 0;
+        padding: 0;
     }
 
     .t-content{
-        font-size: 1.1rem;
-        padding: 15px;
+        font-size: .8rem;
+        padding: 0px;
         text-align: justify;
     }
     .boxreg{
-        padding: 20px;
-        font-size: 1rem;
+        padding: 6px;
+        margin: 6px;
+        border-radius: 8px;
+        font-size: .7rem;
+    }
+    .reg-link{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 6px;
+    }
+    .blink-text{
+        font-size: 15px;
     }
 }

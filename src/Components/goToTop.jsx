@@ -71,10 +71,10 @@ const Wrapper = styled.section`
     }
   }
 
-  @media (max-width: 340px) {
+  @media (max-width: 400px) {
     .top-btn img {
-      height:2rem;
-      width:2rem;
+      height:1.4rem;
+      width:1.4rem;
       right: 1rem;
       bottom:2rem;
     }

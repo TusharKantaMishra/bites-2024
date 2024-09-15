@@ -24,7 +24,7 @@ const Header = () => {
             </div>
 
 
-            <nav className="navbar navbar-expand-lg bg-body-tertiary fs-4">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary fs-3">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -36,7 +36,6 @@ const Header = () => {
                             <Link className="nav-link" to="/speakers">Speaker</Link>
                             <Link className="nav-link" to="/committees">Committees</Link>
                             <Link className="nav-link" to="/callForPapers">Call for Papers</Link>
-                            {/* <Link className="nav-link" to="/publications">Publications</Link> */}
                             <Link className="nav-link" to="/registration">Registration</Link>
                             <Link className="nav-link" to="/awards">Awards</Link>
                             <Link className="nav-link" to="/sponsors">Sponsorship</Link>

@@ -60,15 +60,52 @@
     font-size: 1rem;
   }
 @media only screen and (max-width: 400px){
+  div.card-group{
+    justify-content: center;
+    display: flex;
+    padding: -5px;
+    margin: -5px;
+  }
     .co-heading{
-        font-size: 1.8rem;
+        font-size: 1rem;
+        padding: 3px;
+        margin: 4px;
     }
-    .card-body-committees p{
-        font-size: .8rem;
+    .card-title-committees{
+      font-size: .6rem;
+      padding: 0;
+      margin: 0;
+    }
+    .card-text-committees{
+      font-size: .5rem;
+      padding: 1px;
+      margin: 1px;
+    }
+    .card-body{
+        padding: 6px;
     }
     .column-committee {
         width: 100%;
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 6px;
+      }
+      .card-committee{
+        padding: 4px;
+        margin: 2px;
+      }
+      .card-committee p{
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+      }
+      .card-committee h5{
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+      }
+      .column-committee {
+        float: left;
+        width: 50%;
+        padding: 0 2px;
       }
 }

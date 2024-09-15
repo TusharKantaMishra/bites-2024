@@ -68,7 +68,7 @@ const Registration = () => {
                     </Link>
                     </div>
                     <div>
-                    <Link to={qrcode} target='_blank' class="blink-text h3">
+                    <Link to={qrcode} target='_blank' className="blink-text h3">
                        Link to QR code !
                     </Link>
                     </div> 
