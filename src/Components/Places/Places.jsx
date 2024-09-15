@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import './Places.css'
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 
 const Places = () => {
   const places = [

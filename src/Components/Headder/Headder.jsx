@@ -12,7 +12,7 @@ const Header = () => {
                     <img className='leftimg' src={imgleft} alt=''></img>
                 </div>
                 <div className="centre-text">
-                    <p>Dept. of Biotechnology and Medical Engg., & Dept. of Mechanical Engg. (NIT Rourkela) <i>in association with</i>  National Institute of Technology Uttarakhand</p>
+                    <p>Dept. of Biotechnology and Medical Engg., & Dept. of Mechanical Engg. (NIT Rourkela) <i>in association with</i>  <br />National Institute of Technology Uttarakhand</p>
                 </div>
                 <div className='right-side'>
                     <img className='rightimg' src={imgright} alt=''></img>
