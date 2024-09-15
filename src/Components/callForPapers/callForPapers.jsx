@@ -7,7 +7,22 @@ const callForPapers = () => {
     window.open(url, "_blank", "noreferrer");
   };
   const topics = [
-    // Inserted the provided topics array here
+    {
+      title: 'Medicine',
+      subtopics: [
+        'Human Physiology',
+        'Surgical Specialties',
+        'Medical Sciences',
+        'Medical Microbiology',
+        'Social and Preventive Medicine',
+        'Complimentary & Alternative Medicine',
+        'Preventive Medicine',
+        'Medical Ethics and Law',
+        'Global Health Challenges',
+        'Nutrition and Dietetics',
+        'Health Psychology'
+      ]
+    },
     {
       title: 'Medical Devices',
       subtopics: [
@@ -19,11 +34,87 @@ const callForPapers = () => {
         'Rehabilitation Devices',
         'Surgical Tools',
         'Smart Devices',
-        'Implantable Devices',
-        'Automated Patient Monitoring (during surgery, intensive care, astronauts in space, underwater divers)',
-        'Advanced Therapeutic and Surgical Devices (laser eye surgery systems, automated insulin delivery)'
+        'Implantable Devices'
       ]
     },
+    {
+      title: 'Biomedical Signals',
+      subtopics: [
+        'Image Reconstruction',
+        'Image Segmentation',
+        'Feature Extraction',
+        'Medical Image Fusion',
+        'Bioinstrumentation',
+        'Monitoring Devices',
+        'Wearable Sensors',
+        'Spectral Analysis',
+        'Biosensors',
+        'Patient Monitoring',
+        'Clinical Data Analysis',
+        'Clinical Decision Making'
+      ]
+    },
+    {
+      title: "Medical Imaging Systems",
+    subtopics: [
+      "Ultrasound Imaging",
+      "Computed Tomography",
+      "Magnetic Resonance Imaging",
+      "X-ray Imaging",
+      "Optical Imaging",
+      "Molecular Imaging",
+      "Positron Emission Tomography",
+      "Single-Photon Emission Computed Tomography",
+      "Photoacoustic Imaging",
+      "Non-invasive Techniques",
+      "Multimodal Imaging",
+      "Biological Image Computing",
+      "Neuroscience Image Computing",
+      "Imaging Genetics",
+      "Image-Guided Therapies",
+      "Physician-Computer Interfaces"
+    ]
+  },
+    {
+      title: 'Healthcare Engineering',
+      subtopics: [
+        'Health Informatics',
+        'Biomedical Data Analytics',
+        'Predictive Modelling',
+        'Security in Healthcare',
+        'Computer Vision & VR',
+        'Healthcare Data Visualization',
+        'Telehealth and Remote Patient Monitoring',
+        'Evolutionary Computing'
+      ]
+    },
+    {
+      title: "Biomechanics",
+    subtopics: [
+      "Gait Analysis",
+      "Prosthetics",
+      "Rehabilitation",
+      "Assistive Technology",
+      "Sports Biomechanics",
+      "Biomechanics of Injury",
+      "Injury Prevention",
+      "Heart Mechanics",
+      "Artery Mechanics",
+      "Atherosclerosis",
+      "Heart Valve Mechanics",
+      "Hemodynamics",
+      "Cardiovascular Devices",
+      "Cardiovascular Modeling",
+      "Spine Mechanics",
+      "Soft Tissue Mechanics",
+      "Muscle Mechanics",
+      "Joint Mechanics",
+      "Sport and Exercise Medicine",
+      "Occupational Medicine",
+      "Modelling and Simulation",
+      "CAD Design & Testing"
+    ]
+  },
     {
       title: 'Artificial Organs',
       subtopics: [
@@ -32,184 +123,19 @@ const callForPapers = () => {
         'Artificial Kidneys/Hearts',
         'Blood Oxygenators',
         'Synthetic Blood Vessels',
-        'Artificial Joints, Arms, and Legs'
+        'Artificial Joints Arms and Legs'
       ]
     },
     {
-      title: 'Blood Chemistry Sensors',
+      title: 'Tissue Engineering',
       subtopics: [
-        'Potassium',
-        'Sodium',
-        'O2',
-        'CO2',
-        'pH'
+        'Wound Healing',
+        'Tissue Scaffolds',
+        'Soft Tissue Mechanics'
       ]
     },
     {
-      title: 'Biomedical Signals',
-      subtopics: [
-        'Monitoring Devices',
-        'Wearable Sensors',
-        'Biosensing (Biosensors)',
-        'Automated Patient Monitoring'
-      ]
-    },
-    {
-      title: 'Biomechanics',
-      subtopics: [
-        {
-          title: 'Biomechanics of Injury and Wound Healing',
-          subtopics: [
-            'Injury Prevention and Health Protection',
-            'Gait Analysis',
-            'Biomechanics of Prosthetics',
-            'Rehabilitation Biomechanics',
-            'Sports Biomechanics',
-            'Biomechanics of Injury'
-          ]
-        },
-        {
-          title: 'Cardiovascular Mechanics',
-          subtopics: [
-            'Blood Flow',
-            'Heart Mechanics',
-            'Artery Mechanics',
-            'Atherosclerosis',
-            'Heart Valve Mechanics',
-            'Hemodynamics',
-            'Cardiovascular Devices',
-            'Cardiovascular Modeling'
-          ]
-        },
-        {
-          title: 'Joint Mechanics and Muscle Mechanics',
-          subtopics: [
-            'Spine Mechanics',
-            'Soft Tissue Mechanics',
-            'Biomechanics of Injury',
-            'Muscle Mechanics',
-            'Joint Mechanics'
-          ]
-        },
-        {
-          title: 'Tissue Engineering Mechanics',
-          subtopics: [
-            'Tissue Scaffolds',
-            'Soft Tissue Mechanics'
-          ]
-        }
-      ]
-    },
-    {
-      title: 'Biomaterials and Bionanotechnology',
-      subtopics: [
-        {
-          title: 'Biomaterials',
-          subtopics: [
-            'Metals',
-            'Ceramics',
-            'Polymers',
-            'Composites',
-            'Hydrogels',
-            'Surface Modification',
-            'Biocompatibility',
-            'Biodegradability',
-            'Tissue Scaffolds',
-            'Biomaterials Design'
-          ]
-        },
-        {
-          title: 'Bionanotechnology',
-          subtopics: [
-            'Nanoparticles',
-            'Nanofibers',
-            'Nanocomposites',
-            'Nanorobotics',
-            'Nanotoxicology',
-            'BioMEMS Biosensors',
-            'Nano-Based Biosensors',
-            'Nanoparticle Drug Delivery',
-            'Nano Medicine',
-            'Wearable Biosensors',
-            'Implantable Biosensors',
-            'Point-of-Care Biosensors'
-          ]
-        }
-      ]
-    },
-    {
-      title: 'Computational Biology and Medical Engineering',
-      subtopics: [
-        {
-          title: 'Computational Biology',
-          subtopics: [
-            'Computational Models',
-            'Data Analysis',
-            'Simulation',
-            'Optimization',
-            'Machine Learning',
-            'Artificial Intelligence',
-            'Computational Systems Biology',
-            'Systems Biology',
-            'Computational Physiology'
-          ]
-        },
-        {
-          title: 'Medical Engineering Systems & Applications',
-          subtopics: [
-            'Bioinstrumentation',
-            'Biomedical Intelligence & Clinical Data Analysis',
-            'Computer Modelling of Physiologic Systems (blood pressure control, renal function, visual and auditory nervous circuits)',
-            'Design of Optimal Clinical Laboratories (computerized analyzers, cardiac catheterization)',
-            'Application of Expert Systems and AI to Clinical Decision Making'
-          ]
-        },
-        {
-          title: 'Bioinformatics of Diseases',
-          subtopics: [
-            'Genomics',
-            'Proteomics'
-          ]
-        }
-      ]
-    },
-    {
-      title: 'Bioimaging and Medical Image Computing',
-      subtopics: [
-        {
-          title: 'Medical Imaging Systems',
-          subtopics: [
-            'Ultrasound Imaging',
-            'Computed Tomography (CT)',
-            'Magnetic Resonance Imaging (MRI)',
-            'X-ray Imaging',
-            'Optical Imaging',
-            'Molecular Imaging',
-            'Positron Emission Tomography (PET)',
-            'Single-Photon Emission Computed Tomography (SPECT)',
-            'Photoacoustic Imaging',
-            'Non-invasive Techniques',
-            'Multimodal Imaging',
-            'Biological Image Computing',
-            'Neuroscience Image Computing',
-            'Imaging Genetics'
-          ]
-        },
-        {
-          title: 'Medical Image Computing',
-          subtopics: [
-            'Visualisation and Interaction',
-            'Imaging and Analysis Methods for Image-Guided Therapies',
-            'Imaging Equipment',
-            'Computational Anatomy',
-            'Computer-Aided Modelling and Evaluation of Surgical Procedures',
-            'Physician-Computer Interfaces (using virtual/mixed/augmented reality)'
-          ]
-        }
-      ]
-    },
-    {
-      title: 'Drug Delivery and Therapeutics',
+      title: 'Drug Delivery',
       subtopics: [
         'Targeted Drug Delivery',
         'Controlled Release',
@@ -223,57 +149,114 @@ const callForPapers = () => {
       ]
     },
     {
-      title: 'Neural and Tissue Engineering',
+      title: 'Biomaterials',
       subtopics: [
-        {
-          title: 'Neural Engineering',
-          subtopics: [
-            'Cell Mechanics Modeling',
-            'Cell Adhesion',
-            'Cell Migration',
-            'Cell Signaling',
-            'Cell Stiffness',
-            'Cell Differentiation',
-            'Cell-Material Interactions',
-            'Mechanobiology',
-            'Cytoskeleton Mechanics'
-          ]
-        },
-        {
-          title: 'Cellular, Tissue and Genetic Engineering',
-          subtopics: [
-            'Tissue Engineering',
-            'Tissue Engineering Mechanics',
-            'Cell Mechanics'
-          ]
-        }
+        'Bio-Ceramics',
+        'Bio-Polymers',
+        'Bio-Composites',
+        'Hydrogels',
+        'Surface Modification',
+        'Biomaterials Design',
+        'Intelligent Materials'
       ]
     },
     {
-      title: 'Sports Medicine and Rehabilitation',
+      title: 'Bionanotechnology',
       subtopics: [
-        'Sports and Exercise Medicine',
-        'Rehabilitation Engineering'
+        'Nanoparticles',
+        'Nanofibers',
+        'Nanocomposites',
+        'Nanorobotics',
+        'Nanotoxicology',
+        'BioMEMS Biosensors',
+        'Nano-Based Biosensors',
+        'Nanoparticle Drug Delivery',
+        'Nano Medicine',
+        'Wearable Biosensors',
+        'Implantable Biosensors',
+        'Point-of-Care Biosensors'
       ]
     },
     {
-      title: 'Clinical and Biological Applications',
+      title: 'Pharmaceutical Sciences',
       subtopics: [
-        'Medical Robotics',
-        'Robotic Vision',
-        'Surgical and Interventional Systems',
-        'Novel Surgical Devices and Sensors',
-        'Advanced Therapeutic Devices',
-        'Medical Robots',
-        'Rehabilitation Devices'
-      ]
-    },
-    {
-      title: 'Toxicology, Immunology, and Social Medicine',
-      subtopics: [
+        'Pharmacology',
         'Toxicology',
         'Immunology',
-        'Social and Preventive Medicine'
+        'Immunogenetics',
+        'Allergy and Hypersensitivity',
+        'Immunotherapy'
+      ]
+    },
+    {
+      title: 'Bioinformatics & Computational Biology',
+      subtopics: [
+        'Genomics',
+        'Proteomics',
+        'Gene Expression Analysis',
+        'Computational Models',
+        'Computer Simulation',
+        'Systems Biology',
+        'Computational Physiology'
+      ]
+    },
+    {
+      title: 'Bioprocess Engineering',
+      subtopics: [
+        'Bioreactor Design and Operation',
+        'Fermentation Technology',
+        'Cell Culture Techniques',
+        'Metabolic Engineering',
+        'Downstream Processing',
+        'Bioprocess Optimization',
+        'Bioprocess Control and Automation',
+        'Bioprocess Economics and Sustainability',
+        'Quality Assurance and Regulatory Affairs'
+      ]
+    },
+    {
+      title: "AI and Modelling in Bioengineering",
+    subtopics: [
+      "Forecasting",
+      "Big Data Model",
+      "Recommender systems",
+      "Quantum Computing",
+      "Pattern Recognition",
+      "Reinforcement Learning",
+      "Statistical Analysis",
+      "Stochastic Modelling",
+      "Bio-inspired algorithms",
+      "Deep Learning",
+      "Neural networks",
+      "Machine learning",
+      "Data visualization",
+      "AI Algorithms"
+      ]
+    },
+    {
+      title: "Modelling and Simulation",
+    subtopics: [
+      "Agent-Based Simulation",
+      "Hybrid Simulation",
+      "Simulation and Optimization",
+      "Biomathematics",
+      "Mathematical Modelling",
+      "Cyber-Physical Systems",
+      "Cloud Computing",
+      "Collaborative Systems",
+      "Multi-Physics Simulation",
+      "Visualization and Virtual Reality",
+      "Green Technologies",
+      "Internet of Things"
+      ]
+    },
+    {
+      title: 'Others',
+      subtopics: [
+        'Carbon Capture Techniques',
+        'Behavioral Ecology',
+        'Evolutionary Ecology',
+        'Vector-Borne Disease'
       ]
     }
   ];
