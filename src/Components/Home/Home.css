@@ -101,15 +101,15 @@
     margin: 0;
   }
   .date-home {
-    font-size: .7rem;
+    font-size: .76rem;
     margin: 3px;
   }
   .headabout-conf {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 4px;
   }
   .bodyabout-conf {
-    font-size: .6rem;
+    font-size: .76rem;
     margin: 0;
     padding: 0 1rem;
   }
@@ -120,5 +120,13 @@
   }
   .container-fluid {
     display: none;
+  }
+  .heading-media {
+    margin: .5rem;
+    font-size: 15px;
+  }
+  .media1 {
+    margin: 0;
+    height: 20px;
   }
 }

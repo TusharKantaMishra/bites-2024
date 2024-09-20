@@ -60,7 +60,7 @@ const Committees = () => {
                     <Card.Body>
                         <Card.Title><h5 className="card-title-committees">Prof. Dharmendra Tripathi</h5></Card.Title>
                         <Card.Text>
-                        <p className="card-text-committees">Dean SW Associate Professor</p>
+                        <p className="card-text-committees">Dean SW & Associate Professor</p>
                         <p className="card-text-committees">Dept. of Mathematics</p>
                         <p className="card-text-committees">NIT Uttarakhand</p>
                         <a href="https://portfolios.nituk.ac.in/419/dharmendra-tripathi/personal-details" className="btn btn-secondary btn-lg">Profile</a>

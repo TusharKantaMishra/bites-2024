@@ -251,6 +251,27 @@ const callForPapers = () => {
       ]
     },
     {
+      title: "Mathematically Bioscience",
+    subtopics: [
+      "Biostatistics",
+      "Bioinformatics",
+      "Systems biology",
+      "Biomathematics",
+      "Mathematical Biology",
+      "Mathematics in Biomedicine",
+      "Biomathematics and applications",
+      "Dynamics of Disease Transmission",
+      "Biological Population Modelling",
+      "Controlling infectious diseases",
+      "Mathematical modelling and simulation",
+      "Modeling Cell and Molecular Biology",
+      "Modeling Physiological Systems",
+      "Stochastic Modelling in Biology",
+      "Statistical modelling in biology",
+      "Computational Biology"
+      ]
+    },
+    {
       title: 'Others',
       subtopics: [
         'Carbon Capture Techniques',
