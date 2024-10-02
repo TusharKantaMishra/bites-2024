@@ -102,6 +102,10 @@ const Speakers = () => {
                             Asst. Controller (P&D),
                             <p>IPO Kolkata</p>         
                             </p>
+                            <h5 className="card-title">Dr. S. Venkata Mohan  </h5>
+                            <p className="card-text">
+                            Chief Scientist, IICT Hyderabad         
+                            </p>
 
                         </div>
 
@@ -111,18 +115,58 @@ const Speakers = () => {
                         <div className="card-body p-4">
                             <h1 className="card-title-address" >Invited Address</h1>
 
+                            <h5 className="card-title">Prof. Anil Kumar Birru</h5>
+                            <p className="card-text">
+                            Head & Assoc. Professor, NIT Manipur 
+                            </p>
                             <h5 className="card-title">Dr. Tikam Chand Dakal</h5>
                             <p className="card-text">
                             Assistant Professor, ICMR-NARFBR, Hyderabad
+                            </p>
+                            <h5 className="card-title">Prof. Debasmita Dubey</h5>
+                            <p className="card-text">
+                            Assoc. Professor, SOA Unv BBS
+                            </p>
+                            <h5 className="card-title">Prof. Chandan Goswami</h5>
+                            <p className="card-text">
+                            Professor, NISER Bhubaneswar
+                            </p>
+                            <h5 className="card-title">Prof. Alok Jain</h5>
+                            <p className="card-text">
+                            Asst. Professor, BIT Mesra 
+                            </p>
+                            <h5 className="card-title">Prof. Aradhana Mishra</h5>
+                            <p className="card-text">
+                            Sr. Principal Scientist, NBRI, Lucknow  
+                            </p>
+                            <h5 className="card-title">Prof. Danumjaya Palla</h5>
+                            <p className="card-text">
+                            Professor, BITS Pilani, Goa 
+                            </p>
+                            <h5 className="card-title">Prof. Sirsendu Sekhar Ray </h5>
+                            <p className="card-text">
+                            Professor, North-Eastern Hill University, Shillong  
+                            </p>
+                            <h5 className="card-title">Prof. Yamini Sudha Sistla </h5>
+                            <p className="card-text">
+                            Assoc. Professor, Shiv Nadar University
+                            </p>
+                            <h5 className="card-title">Prof. Ruchi Mishra Tiwari </h5>
+                            <p className="card-text">
+                            Asst. Professor, Symbiosis International (Deemed Unv.)
+                            </p>
+                            <h5 className="card-title">Prof. Jai Prakash Tripathi </h5>
+                            <p className="card-text">
+                            Asst. Professor, Central Unv. Rajasthan 
+                            </p>
+                            <h5 className="card-title">Dr. Anurag Kumar Tiwari</h5>
+                            <p className="card-text">
+                            Dr B R Ambedkar National Institute of Technology, Jalandhar
                             </p>
                              <h5 className="card-title">Dr. Vivekanand </h5>
                             <p className="card-text">
                             Top 2% of the world’s Scientists,
                             <p>MNIT Jaipur</p>
-                            </p>
-                            <h5 className="card-title">Dr. Anurag Kumar Tiwari</h5>
-                            <p className="card-text">
-                            Dr B R Ambedkar National Institute of Technology, Jalandhar
                             </p>
                         </div>
                     </div>

@@ -54,8 +54,11 @@ const Registration = () => {
                 <br />
                 * Registration for student/ staff of NIT Rourkela is free.
                 <br />
-
                 * Accommodation will be arranged at the campus, subject to availability and charges payable by the participant.
+                <br />
+                * Last date of registration is till 15 Oct 2024.
+                <br />
+                * Late registration charges of 20% extra.
                 <br />
                 <h2 className="boxreg">
                     Payment should be made through an Online transfer in favor of “Conference, NIT Rourkela” payable at SBI, NIT Branch to Account No.: 36734418111, IFSC: SBIN0002109, MICR: 769002007, SWIFT: SBININBB137
