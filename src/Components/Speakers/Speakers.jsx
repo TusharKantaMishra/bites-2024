@@ -24,6 +24,11 @@ const Speakers = () => {
                                 Professor & Ex-Vice Dean (PG)
                                 <p>Al-Azhar University, Cairo</p>
                             </p>
+                            <h5 className="card-title">Prof. Suman Chakraborty</h5>
+                            <p className="card-text">
+                                Shanti Swarup Bhatnagar Awardee,
+                                <p>Professor, IIT Kharagpur</p>
+                            </p>
                             <h5 className="card-title">Prof. Dhirendra S Katti</h5>
                             <p className="card-text">
                                 Director, IIT Goa
@@ -47,12 +52,6 @@ const Speakers = () => {
                                 <p>Centre for Energy and Environmental
                                 Sustainability, Lucknow</p>          
                             </p>
-                            <h5 className="card-title">Prof. Suman Chakraborty</h5>
-                            <p className="card-text">
-                            Shanti Swarup Bhatnagar Awardee 
-                            Professor, 
-                                <p>IIT Kharagpur </p>          
-                            </p>
                             <h5 className="card-title">Prof. Minakshi Prasad</h5>
                             <p className="card-text">
                             Editor-in-Chief, 
@@ -63,7 +62,16 @@ const Speakers = () => {
                             Dy. Director (Biotech.),  
                                 <p>S&T Odisha</p>          
                             </p>
+                            <h5 className="card-title">Dr. Mona Kanso</h5>
+                            <p className="card-text">
+                            PostDoc Assoc, Massachusetts,  
+                                <p>Institute of Technology</p>          
+                            </p>
                             <h5 className="card-title">Prof. Anuj Mubayi</h5>
+                            <p className="card-text">
+                            Editor-in-Chief, Physics of Fluids          
+                            </p>
+                            <h5 className="card-title">Prof. Alan Jeffrey Giacomin</h5>
                             <p className="card-text">
                             Illinois University USA          
                             </p>
@@ -115,6 +123,14 @@ const Speakers = () => {
                         <div className="card-body p-4">
                             <h1 className="card-title-address" >Invited Address</h1>
 
+                            <h5 className="card-title">Dr. Neha Arya </h5>
+                            <p className="card-text">
+                            Asst. Professor, AIIMS Bhopal 
+                            </p>
+                            <h5 className="card-title">Prof. Iswar Baitharu</h5>
+                            <p className="card-text">
+                            Asst. Professor, AIIMS Bhopal 
+                            </p>
                             <h5 className="card-title">Prof. Anil Kumar Birru</h5>
                             <p className="card-text">
                             Head & Assoc. Professor, NIT Manipur 
@@ -135,9 +151,21 @@ const Speakers = () => {
                             <p className="card-text">
                             Asst. Professor, BIT Mesra 
                             </p>
+                            <h5 className="card-title">Prof. Era Jain</h5>
+                            <p className="card-text">
+                            Asst. Prof., Syracuse University 
+                            </p>
+                            <h5 className="card-title">Prof. Dhruv Kumar</h5>
+                            <p className="card-text">
+                            Prof. & Cluster Head, SoHST Dehradun 
+                            </p>
                             <h5 className="card-title">Prof. Aradhana Mishra</h5>
                             <p className="card-text">
                             Sr. Principal Scientist, NBRI, Lucknow  
+                            </p>
+                            <h5 className="card-title">Prof. Rakesh K. Mishra</h5>
+                            <p className="card-text">
+                            Head & Asst. Prof., NIT UK  
                             </p>
                             <h5 className="card-title">Prof. Danumjaya Palla</h5>
                             <p className="card-text">
@@ -147,9 +175,17 @@ const Speakers = () => {
                             <p className="card-text">
                             Professor, North-Eastern Hill University, Shillong  
                             </p>
+                            <h5 className="card-title">Prof. Akhilesh K Shakya</h5>
+                            <p className="card-text">
+                            Asst. Prof. of Prac., Texas Tech Unv. 
+                            </p>
                             <h5 className="card-title">Prof. Yamini Sudha Sistla </h5>
                             <p className="card-text">
                             Assoc. Professor, Shiv Nadar University
+                            </p>
+                            <h5 className="card-title">Prof. Anurag Kumar Tiwari</h5>
+                            <p className="card-text">
+                            Asst. Professor, NIT Jalandhar
                             </p>
                             <h5 className="card-title">Prof. Ruchi Mishra Tiwari </h5>
                             <p className="card-text">
@@ -159,14 +195,13 @@ const Speakers = () => {
                             <p className="card-text">
                             Asst. Professor, Central Unv. Rajasthan 
                             </p>
-                            <h5 className="card-title">Dr. Anurag Kumar Tiwari</h5>
+                            <h5 className="card-title">Prof. Rajesh Vasita</h5>
                             <p className="card-text">
-                            Dr B R Ambedkar National Institute of Technology, Jalandhar
+                            Asst. Prof., Central Unv. of Gujarat
                             </p>
-                             <h5 className="card-title">Dr. Vivekanand </h5>
+                             <h5 className="card-title">Prof. Vivekanand </h5>
                             <p className="card-text">
-                            Top 2% of the world’s Scientists,
-                            <p>MNIT Jaipur</p>
+                            Asst. Professor, MNIT Jaipur
                             </p>
                         </div>
                     </div>

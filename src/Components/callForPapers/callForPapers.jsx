@@ -1,6 +1,8 @@
 import React from 'react'
 import './callForPapers.css'
 import { useState } from "react";
+import aipp from '../Assets/AIPP logo.png'
+import pof from '../Assets/POF logo.png'
 
 const callForPapers = () => {
   const openInNewTab = (url) => {
@@ -329,12 +331,16 @@ const callForPapers = () => {
         <button onClick={() => openInNewTab('https://forms.gle/YjRAw5J5uQAPjPcUA')} className="btn btn-outline-warning btn-lg">Submit</button>
       </div>
       <div className="publications">
-        <h1 className="head-publication">Publications</h1>
+        <h1 className="head-publication">Publication of Extended Papers</h1>
         <p>
           1. Souvenir (conference proceedings)
         <br />
           2. Journals/Book series (to be updated soon after consent from the publishers)
         </p>
+        <div className="publication-logo">
+          <img className='publication-logo_1' src={pof} alt="POF" />
+          <img className='publication-logo_2' src={aipp} alt="AIPP" />
+        </div>
       </div>
     </>
   )

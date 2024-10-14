@@ -213,6 +213,16 @@ body {
   margin: 10px 0;
   transition: margin 0.3s ease;
 }
+.publication-logo_1{
+  width: auto;
+  height: 40px;
+  margin: 5px;
+}
+.publication-logo_2{
+  width: auto;
+  height: 60px;
+  margin: 5px;
+}
 
 /* Responsive design for smaller devices */
 @media only screen and (max-width: 400px) {
@@ -261,5 +271,15 @@ body {
     font-size: 10px;
     padding: 0;
     margin: 6px;
+  }
+  .publication-logo_1{
+    width: auto;
+    height: 15px;
+    margin: 1px;
+  }
+  .publication-logo_2{
+    width: auto;
+    height: 25px;
+    margin: 1px;
   }
 }
