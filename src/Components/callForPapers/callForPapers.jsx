@@ -253,7 +253,56 @@ const callForPapers = () => {
       ]
     },
     {
-      title: "Mathematically Bioscience",
+      title: 'Biofluid Mechanics',
+  subtopics: [
+    'Hemodynamics',
+    'Blood Rheology',
+    'Plasma Protein Dynamics',
+    'Non-Newtonian Fluids',
+    'Finite Element Analysis',
+    'Cardiovascular Flow',
+    'Microcirculation',
+    'Flow visualization',
+    'Vascular Mechanics',
+    'Mathematical Simulation',
+    'Biochemical Transport',
+    'Multiphysics Modeling',
+    'Particle Image Velocimetry',
+    'Experimental Techniques',
+    'Blood-Tissue Interaction',
+    'Dialysis and Hemodynamics',
+    'Physiological Fluid Models',
+    'Interstitial fluid dynamics',
+    'Fluid-Structure Interaction',
+    'Computational Fluid Dynamics',
+    'Respiratory Fluid Mechanics'
+      ]
+    },
+    {
+      title: 'Healthcare Engineering',
+  subtopics: [
+    'Workflow Analysis',
+    'Health Systems Management',
+    'Healthcare Logistics',
+    'Surgical Robots',
+    'Robotic-Assisted Surgery',
+    'Robot-Assisted Therapy',
+    'Rehabilitation Robots',
+    'Medical Exoskeletons',
+    'Wearable Health Technology',
+    'Haptic Feedback in Robotics',
+    'Patient Monitoring Systems',
+    'Telemedicine and Telehealth',
+    'Healthcare Data Management',
+    'Machine Learning in Healthcare',
+    'Data Mining in Healthcare',
+    'Cloud Computing in Healthcare',
+    'Ethical Issues in Medical Technology',
+    'Regulatory Affairs in Healthcare'
+      ]
+    },
+    {
+      title: "Mathematical Bioscience",
     subtopics: [
       "Biostatistics",
       "Bioinformatics",
@@ -335,11 +384,13 @@ const callForPapers = () => {
         <p>
           1. Souvenir (conference proceedings)
         <br />
-          2. Journals/Book series (to be updated soon after consent from the publishers)
+          2. Special Issue - "Fluid Dynamics of Life", Physics of Fluids
+          <br />
+          3. Journals/Book series (to be updated after consent from the publishers)
         </p>
         <div className="publication-logo">
-          <img className='publication-logo_1' src={pof} alt="POF" />
-          <img className='publication-logo_2' src={aipp} alt="AIPP" />
+          <div><img className='publication-logo_1' src={pof} alt="POF" /></div>
+          <div><img className='publication-logo_2' src={aipp} alt="AIPP" /></div>
         </div>
       </div>
     </>

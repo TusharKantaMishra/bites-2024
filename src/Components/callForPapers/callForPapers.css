@@ -261,6 +261,7 @@ body {
   }
   .publications{
     margin: 6px;
+    display: flex;
   }
   .head-publication{
     font-size: 20px;
@@ -271,6 +272,10 @@ body {
     font-size: 10px;
     padding: 0;
     margin: 6px;
+  }
+  .publication-logo {
+    display: flex;
+    flex-direction: column;
   }
   .publication-logo_1{
     width: auto;

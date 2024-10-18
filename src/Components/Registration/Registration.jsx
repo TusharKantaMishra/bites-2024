@@ -50,6 +50,8 @@ const Registration = () => {
                 </table>
             </div>
             <div className="t-content">
+                * For Attendees Rs. 1000/ USD 25.
+                <br />
                 * Registration includes - conference kit, high tea, breakfast and lunch (GST incl.).
                 <br />
                 * Registration for student/ staff of NIT Rourkela is free.
