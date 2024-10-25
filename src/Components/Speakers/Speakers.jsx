@@ -14,33 +14,69 @@ const Speakers = () => {
                         <div className="card-body p-3">
                             <h1 className="card-title-address">Keynote Address</h1>
 
-                        
-                            <h5 className="card-title">Prof. Luís Miguel Grilo</h5>
+
+                            <h5 className="card-title">Prof. Mohamed Sultan Mohamed Ali</h5>
                             <p className="card-text">
-                                Professor, University of Evora, Portugal
+                            Universiti Teknologi Malaysia         
                             </p>
-                            <h5 className="card-title">Prof. Kh S Mekheimer </h5>
+                            <h5 className="card-title">Prof. T Bhaskar </h5>
                             <p className="card-text">
-                                Professor & Ex-Vice Dean (PG)
-                                <p>Al-Azhar University, Cairo</p>
+                            Scientist F, IIP Dehradun         
                             </p>
                             <h5 className="card-title">Prof. Suman Chakraborty</h5>
                             <p className="card-text">
                                 Shanti Swarup Bhatnagar Awardee,
                                 <p>Professor, IIT Kharagpur</p>
                             </p>
-                            <h5 className="card-title">Prof. Dhirendra S Katti</h5>
+                            <h5 className="card-title">Prof. Sashikanta Dash</h5>
                             <p className="card-text">
-                                Director, IIT Goa
+                            Dy. Director (Biotech.),  
+                                <p>S&T Odisha</p>          
+                            </p>
+                            <h5 className="card-title">Prof. Suresh Kumar Dubey</h5>
+                            <p className="card-text">
+                            Professor, BHU, Varanasi         
+                            </p>
+                            <h5 className="card-title">Prof. Alan Jeffrey Giacomin</h5>
+                            <p className="card-text">
+                            Editor-in-Chief, Physics of Fluids           
                             </p>
                             <h5 className="card-title">Prof. Mukesh K Gupta </h5>
                             <p className="card-text">
                                 Director, ICMR-NARFBR, Hyderabad
                             </p>
+                            <h5 className="card-title">Prof. Luís Miguel Grilo</h5>
+                            <p className="card-text">
+                                Professor, University of Evora, Portugal
+                            </p>
+                            <h5 className="card-title">Prof. Singam Jayanthu</h5>
+                            <p className="card-text">
+                            National Mineral Awardee 
+                            Professor, 
+                                <p>NIT Rourkela </p>          
+                            </p>
+                            <h5 className="card-title">Dr. Mona Kanso</h5>
+                            <p className="card-text">
+                            PostDoc Assoc, Massachusetts,  
+                                <p>Institute of Technology</p>          
+                            </p>
+                            <h5 className="card-title">Prof. Dhirendra S Katti</h5>
+                            <p className="card-text">
+                                Director, IIT Goa
+                            </p>
+                            <h5 className="card-title">Prof. Kh S Mekheimer </h5>
+                            <p className="card-text">
+                                Professor & Ex-Vice Dean (PG)
+                                <p>Al-Azhar University, Cairo</p>
+                            </p>         
                             <h5 className="card-title">Dr. Sanjib Mohanty</h5>
                             <p className="card-text">
                                 Ex Director
                                 Ispat General Hospital (IGH), Rourkela
+                            </p>
+                            <h5 className="card-title">Prof. Anuj Mubayi</h5>
+                            <p className="card-text">
+                            Illinois University USA          
                             </p>
                             <h5 className="card-title">Prof. Sunil K Khare</h5>
                             <p className="card-text">
@@ -49,72 +85,34 @@ const Speakers = () => {
                             <h5 className="card-title">Prof. Ashok Pandey </h5>
                             <p className="card-text">
                                 Exe. Director (Honorary)
-                                <p>Centre for Energy and Environmental
-                                Sustainability, Lucknow</p>          
-                            </p>
-                            <h5 className="card-title">Prof. Minakshi Prasad</h5>
-                            <p className="card-text">
-                            Editor-in-Chief, 
-                                <p>Indian J. of Microbiology</p>          
-                            </p>
-                            <h5 className="card-title">Prof. Sashikanta Dash</h5>
-                            <p className="card-text">
-                            Dy. Director (Biotech.),  
-                                <p>S&T Odisha</p>          
-                            </p>
-                            <h5 className="card-title">Dr. Mona Kanso</h5>
-                            <p className="card-text">
-                            PostDoc Assoc, Massachusetts,  
-                                <p>Institute of Technology</p>          
-                            </p>
-                            <h5 className="card-title">Prof. Anuj Mubayi</h5>
-                            <p className="card-text">
-                            Editor-in-Chief, Physics of Fluids          
-                            </p>
-                            <h5 className="card-title">Prof. Alan Jeffrey Giacomin</h5>
-                            <p className="card-text">
-                            Illinois University USA          
-                            </p>
-                            <h5 className="card-title">Prof. R Vinu </h5>
-                            <p className="card-text">
-                            Professor, IIT Madras          
-                            </p>
-                            <h5 className="card-title">Dr. S Venkata Mohan</h5>
-                            <p className="card-text">
-                            Chief Scientist, IICT Hyderabad           
-                            </p>
-                            <h5 className="card-title">Prof. Singam Jayanthu</h5>
-                            <p className="card-text">
-                            National Mineral Awardee 
-                            Professor, 
-                                <p>NIT Rourkela </p>          
-                            </p>
-                            <h5 className="card-title">Prof. Mohamed Sultan Mohamed Ali</h5>
-                            <p className="card-text">
-                            Universiti Teknologi Malaysia         
-                            </p>
-                            <h5 className="card-title">Dr. Praveen Sahu</h5>
-                            <p className="card-text">
-                            Sr. Scientist, CWS Hospital, Rourkela          
-                            </p>
-                            <h5 className="card-title">Prof. T Bhaskar </h5>
-                            <p className="card-text">
-                            Scientist F, IIP Dehradun         
-                            </p>
-                            <h5 className="card-title">Prof. Suresh Kumar Dubey</h5>
-                            <p className="card-text">
-                            Professor, BHU, Varanasi         
+                                xecutive Director, Centre for Energy and Env. Sustainability, Lucknow           
                             </p>
                             <h5 className="card-title">Mr. Dhiren Pattanayak</h5>
                             <p className="card-text">
                             Asst. Controller (P&D),
                             <p>IPO Kolkata</p>         
                             </p>
-                            <h5 className="card-title">Dr. S. Venkata Mohan  </h5>
+                            <h5 className="card-title">Prof. Minakshi Prasad</h5>
                             <p className="card-text">
-                            Chief Scientist, IICT Hyderabad         
+                            Editor-in-Chief, 
+                                <p>Indian J. of Microbiology</p>          
                             </p>
-
+                            <h5 className="card-title">Dr. Praveen Sahu</h5>
+                            <p className="card-text">
+                            Sr. Scientist, CWS Hospital, Rourkela          
+                            </p>
+                            <h5 className="card-title">Prof. Kolla Sreedevi</h5>
+                            <p className="card-text">
+                            Chief Editor, J. of Biological Control          
+                            </p>
+                            <h5 className="card-title">Dr. S Venkata Mohan</h5>
+                            <p className="card-text">
+                            Chief Scientist, IICT Hyderabad           
+                            </p>
+                            <h5 className="card-title">Prof. R Vinu </h5>
+                            <p className="card-text">
+                            Professor, IIT Madras          
+                            </p>
                         </div>
 
                     </div>
@@ -123,13 +121,17 @@ const Speakers = () => {
                         <div className="card-body p-4">
                             <h1 className="card-title-address" >Invited Address</h1>
 
+                            <h5 className="card-title">Ms. Anna Sappington</h5>
+                            <p className="card-text">
+                            Massachusetts Institute of Tech.  
+                            </p>
                             <h5 className="card-title">Dr. Neha Arya </h5>
                             <p className="card-text">
                             Asst. Professor, AIIMS Bhopal 
                             </p>
                             <h5 className="card-title">Prof. Iswar Baitharu</h5>
                             <p className="card-text">
-                            Asst. Professor, AIIMS Bhopal 
+                            Asst. Professor, Sambalpur University 
                             </p>
                             <h5 className="card-title">Prof. Anil Kumar Birru</h5>
                             <p className="card-text">
@@ -137,7 +139,7 @@ const Speakers = () => {
                             </p>
                             <h5 className="card-title">Dr. Tikam Chand Dakal</h5>
                             <p className="card-text">
-                            Assistant Professor, ICMR-NARFBR, Hyderabad
+                            Asst. Prof., Mohanlal Sukhadia Unv. 
                             </p>
                             <h5 className="card-title">Prof. Debasmita Dubey</h5>
                             <p className="card-text">
@@ -146,6 +148,10 @@ const Speakers = () => {
                             <h5 className="card-title">Prof. Chandan Goswami</h5>
                             <p className="card-text">
                             Professor, NISER Bhubaneswar
+                            </p>
+                            <h5 className="card-title">Prof. Raj Kumar Joshi</h5>
+                            <p className="card-text">
+                            Prof. & Head, Rama Devi Women's Unv., Bhubaneswar  
                             </p>
                             <h5 className="card-title">Prof. Alok Jain</h5>
                             <p className="card-text">
@@ -162,6 +168,10 @@ const Speakers = () => {
                             <h5 className="card-title">Prof. Aradhana Mishra</h5>
                             <p className="card-text">
                             Sr. Principal Scientist, NBRI, Lucknow  
+                            </p>
+                            <h5 className="card-title">Prof. Aradhana Mishra </h5>
+                            <p className="card-text">
+                            Sr. Principal Sc., NBRI, Lucknow   
                             </p>
                             <h5 className="card-title">Prof. Rakesh K. Mishra</h5>
                             <p className="card-text">
@@ -198,6 +208,10 @@ const Speakers = () => {
                             <h5 className="card-title">Prof. Rajesh Vasita</h5>
                             <p className="card-text">
                             Asst. Prof., Central Unv. of Gujarat
+                            </p>
+                             <h5 className="card-title">Dr. Vaibhav Mohanty </h5>
+                            <p className="card-text">
+                            Hertz Fellow (2023), Harvard University and MIT
                             </p>
                              <h5 className="card-title">Prof. Vivekanand </h5>
                             <p className="card-text">
