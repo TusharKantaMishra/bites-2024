@@ -1,60 +1,173 @@
-.card-title-address{
-    color: #681c1c;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-    margin: 1rem;
+.card-title-address {
+  color: #681c1c;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 1rem;
 }
-.container-speaker{
-    padding: 15px;  
-    justify-content: center;
-    align-items: center;
+.container-speaker {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-body {
+  text-align: center;
+  background-color: #fef0e6;
+}
+.row-2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0.85;
+  width: 100%;
+}
+.card-title {
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.card-text {
+  color: black;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 400px) {
+  .container-speaker {
+    padding: 0;
+    margin: 0;
+  }
+  .row-2 {
+    padding: 0;
+    margin: 0;
+  }
+  .card-title-address {
+    font-size: 0.8rem;
+    margin: 4px;
+  }
+  .card-title {
+    font-size: 0.6rem;
+  }
+  .card-text {
+    font-size: 0.4rem;
+  }
+  .card {
+    width: 50%;
+  }
+  .container-speaker {
+    padding: 0;
+  }
+}
+
+.section {
+    margin: 40px auto;
+    max-width: 1200px;
     text-align: center;
-}
-.card-body{
-    text-align: center;
-    background-color: #fef0e6;
-}
-.row-2{
+  }
+  
+  .card-container-speaker {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
+  }
+  
+  /* Regular speakers: 3 cards per row */
+  .card-speaker {
+    flex: 1 1 30%;
+    max-width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    opacity: 0.85;
-    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fef0e6e3;
+    align-items: center;
+  }
+  .card-container-speaker.speakers {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  /* Keynote Speakers Section: 4 Columns */
+  .card-container-speaker.keynote,
+  .card-container-speaker.invited {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .designation {
+    color: #555;
+  }
+  
+  /* Keynote speakers section: 4 cards per row */
+  .keynote .card-speaker {
+    flex: 1 1 22%; /* Four columns */
+    max-width: 22%;
+  }
+  .invited .card-speaker {
+    flex: 1 1 22%; /* Four columns */
+    max-width: 22%;
+  }
+  @media (max-width: 768px) {
+  /* Speakers: 2 Columns on Medium Screens */
+  .card-container-speaker.speakers {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  /* Keynote Speakers: 2 Columns on Medium Screens */
+  .card-container-speaker.keynote,.card-container-speaker.invited {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }
-.card-title{
-    color: black;
-    font-weight: 700;
-    font-size: 1.2rem;
+
+@media (max-width: 480px) {
+  /* Single Column on Small Screens */
+  .card-container-speaker.speakers,
+  .card-container-speaker.keynote,
+  .card-container-speaker.invited {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-image {
+    width: 80px;
+    height: 80px;
+  }
 }
-.card-text{
-    color: black;
-    font-weight: 600;
-    font-size: .8rem;
-}
-@media only screen and (max-width: 400px){
-    .container-speaker{
-        padding: 0;
-        margin: 0;
+@media (max-width: 768px) {
+    /* Speakers: 2 Columns on Medium Screens */
+    .card-container-speaker.speakers {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
-    .row-2{
-        padding: 0;
-        margin: 0;
+  
+    /* Keynote Speakers: 2 Columns on Medium Screens */
+    .card-container-speaker.keynote {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
-    .card-title-address{
-        font-size: .8rem;
-        margin: 4px;
+  }
+  
+  @media (max-width: 480px) {
+    /* Single Column on Small Screens */
+    .card-container-speaker.speakers,
+    .card-container-speaker.keynote {
+      grid-template-columns: 1fr;
     }
-    .card-title{
-        font-size: 0.6rem;
+  
+    .profile-image {
+      width: 80px;
+      height: 80px;
     }
-    .card-text{
-        font-size: .4rem;
-    }
-    .card{
-        width: 50%;
-    }
-    .container-speaker{
-        padding: 0;
-    }
-}
+  }
+  

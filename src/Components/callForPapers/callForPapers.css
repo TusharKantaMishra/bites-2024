@@ -223,7 +223,11 @@ body {
   height: 60px;
   margin: 5px;
 }
-
+.publication-logo_2{
+  width: auto;
+  height: 60px;
+  margin: 5px;
+}
 /* Responsive design for smaller devices */
 @media only screen and (max-width: 400px) {
   .App{

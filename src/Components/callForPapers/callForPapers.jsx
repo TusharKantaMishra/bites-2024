@@ -3,6 +3,7 @@ import './callForPapers.css'
 import { useState } from "react";
 import aipp from '../Assets/AIPP logo.png'
 import pof from '../Assets/POF logo.png'
+import csp from '../Assets/csp.jpg'
 
 const callForPapers = () => {
   const openInNewTab = (url) => {
@@ -391,6 +392,7 @@ const callForPapers = () => {
         <div className="publication-logo">
           <div><img className='publication-logo_1' src={pof} alt="POF" /></div>
           <div><img className='publication-logo_2' src={aipp} alt="AIPP" /></div>
+          <div><img className='publication-logo_2' src={csp} alt="AIPP" /></div>
         </div>
       </div>
     </>
