@@ -6,7 +6,6 @@ const plenarySpeakers = [
         id: 1,
         name: 'Prof. Alan Jeffrey Giacomin',
         designation: 'Editor-in-Chief, Physics of Fluids',
-        date: '18th - 20th December 2024',
         imageUrl: 'https://www.unr.edu/main/images/colleges-schools/engineering/me/profile/alan-giacomin.jpg'
     },
     {

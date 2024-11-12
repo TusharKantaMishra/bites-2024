@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './callForPapers.css'
 import { useState } from "react";
 import aipp from '../Assets/AIPP logo.png'
 import pof from '../Assets/POF logo.png'
 import csp from '../Assets/csp.jpg'
+import callforpapers from '../Assets/callforpapers.pdf'
+
 
 const callForPapers = () => {
   const openInNewTab = (url) => {
@@ -394,6 +397,9 @@ const callForPapers = () => {
           <div><img className='publication-logo_2' src={aipp} alt="AIPP" /></div>
           <div><img className='publication-logo_2' src={csp} alt="AIPP" /></div>
         </div>
+        <Link to={callforpapers} download="callforpapers" target='_blank'>
+                        <button className="btn btn-danger btn-lg p-2 m-2">Call For Papers</button>
+        </Link>
       </div>
     </>
   )

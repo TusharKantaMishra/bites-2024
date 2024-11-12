@@ -32,7 +32,7 @@
   font-weight: 600;
   font-size: 0.8rem;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .container-speaker {
     padding: 0;
     margin: 0;
@@ -121,7 +121,7 @@
     flex: 1 1 22%; /* Four columns */
     max-width: 22%;
   }
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 500px) {
   /* Speakers: 2 Columns on Medium Screens */
   .card-container-speaker.speakers {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -133,7 +133,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   /* Single Column on Small Screens */
   .card-container-speaker.speakers,
   .card-container-speaker.keynote,
@@ -142,32 +142,27 @@
   }
 
   .profile-image {
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
+  }
+  .name {
+    font-size: .7em;
+    margin: 0;
+  }
+  .designation {
+    font-size: .5em;
+  }
+  .section {
+    margin: 10px;
+  }
+  .card-container-speaker {
+    gap: 12px;
+  }
+  .card-speaker {
+    flex: 1 1 30%;
+    max-width: 30%;
+    padding: 7px;
   }
 }
-@media (max-width: 768px) {
-    /* Speakers: 2 Columns on Medium Screens */
-    .card-container-speaker.speakers {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-  
-    /* Keynote Speakers: 2 Columns on Medium Screens */
-    .card-container-speaker.keynote {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-  }
-  
-  @media (max-width: 480px) {
-    /* Single Column on Small Screens */
-    .card-container-speaker.speakers,
-    .card-container-speaker.keynote {
-      grid-template-columns: 1fr;
-    }
-  
-    .profile-image {
-      width: 80px;
-      height: 80px;
-    }
-  }
+
   
